@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className={style.navContainer}>
             <img className={style.logo} src={image} alt="Logo" />
             <button onClick={()=>{navigate("/")}}>Home</button>
-            <button>Projects</button>
+            <button onClick={()=>{navigate("/projects")}}>Projects</button>
             <button>About</button>
         </div>
     )
