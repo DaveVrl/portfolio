@@ -8,7 +8,7 @@ const NavBar = () => {
 
     return (
         <div className={style.navContainer}>
-            <img src={image} alt="" />
+            <img className={style.logo} src={image} alt="Logo" />
             <button onClick={()=>{navigate("/")}}>Home</button>
             <button>Projects</button>
             <button>About</button>

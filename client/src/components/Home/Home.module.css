@@ -1,3 +1,4 @@
-.homeContainer {
-    
+.image {
+    max-height: 200px;
+    border-radius: 50%;
 }
