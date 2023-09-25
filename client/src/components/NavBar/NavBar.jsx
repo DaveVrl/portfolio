@@ -11,7 +11,7 @@ const NavBar = () => {
             <img className={style.logo} src={image} alt="Logo" />
             <button onClick={()=>{navigate("/")}}>Home</button>
             <button onClick={()=>{navigate("/projects")}}>Projects</button>
-            <button>About</button>
+            <button onClick={()=>{navigate("/about")}}>About</button>
         </div>
     )
 };
