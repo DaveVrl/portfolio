@@ -9,6 +9,23 @@ const About = () => {
             <hr/>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste autem corrupti, consequatur, omnis ex, quam asperiores ab temporibus eum ducimus nisi. Repudiandae voluptatem, amet iste magnam rerum possimus expedita.</p>
+            <div>
+                <a href="">
+                    <img src="" alt="" />
+                    <span>Linkedin</span>
+                    <img src="" alt="" />
+                    </a>
+                <a href="">
+                    <img src="" alt="" />
+                    <span>GitHub</span>
+                    <img src="" alt="" />
+                </a>
+                <a href="">
+                    <img src="" alt="" />
+                    <span>Email</span>
+                    <img src="" alt="" />
+                </a>
+            </div>
         </div>
     )
 };
