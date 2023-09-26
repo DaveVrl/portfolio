@@ -1,7 +1,22 @@
 .navContainer {
-    border: solid 2px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0 14px;
 }
 
 .logo {
     max-height: 60px;
+}
+
+.navBtn{
+    height: 34px;
+    width: 70px;
+    margin: 0px 8px 0px;
+    color: white;
+    background-color: #111010;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
 }
