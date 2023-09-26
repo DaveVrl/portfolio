@@ -6,9 +6,9 @@ const Home = () => {
     return(
         <div className={style.homeContainer}>
             <h1>David Varela</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sequi facilis, praesentium numquam minima, dolorem mollitia labore assumenda voluptas ut enim aliquid quidem odit beatae rerum necessitatibus soluta ab tenetur!</p>
+            <p>¡Hola! Soy un apasionado desarrollador web Full Stack con un enfoque en la creación de soluciones modernas y atractivas. Mi objetivo es utilizar mis habilidades y experiencia en el desarrollo web para brindar soluciones impactantes y de calidad.</p>
             <img className={style.image} src={image} alt="Fotografía" />
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores repudiandae aliquam quo necessitatibus ea ducimus voluptate, fuga veniam debitis soluta atque dolore quis! Cum rerum cumque autem at. Voluptatem, quo!</p>
+            <p>Estoy listo para afrontar desafíos y colaborar en proyectos emocionantes. Tengo mucho interés en seguir sumando conocimiento. Si buscas un desarrollador web apasionado y comprometido, ¡no dudes en contactarme!</p>
         </div>
     )
 };

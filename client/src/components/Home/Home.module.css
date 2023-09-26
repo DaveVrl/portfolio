@@ -6,7 +6,7 @@
 
 .homeContainer h1 {
     align-self: flex-start;
-    margin: 14px 0 10px;
+    margin: 14px 0 14px;
     font-size: 36px;
 }
 
@@ -19,5 +19,7 @@
     max-width: 200px;
     border-radius: 50%;
     margin: 40px 0 40px;
-    filter: grayscale(100%);   
+    filter: grayscale(100%);
+    user-select: none;
+    -webkit-user-drag: none;  
 }
