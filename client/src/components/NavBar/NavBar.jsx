@@ -20,8 +20,7 @@ const NavBar = () => {
       <div className={style.containerBtns}>
         <button
           className={`${style.navBtn} ${
-            activeButton === "" ? style.activeBtn : ""
-          }`}
+            activeButton === "" ? style.activeBtn : ""}`} //
           onClick={() => {
             navigate("/");
           }}
