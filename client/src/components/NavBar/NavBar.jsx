@@ -19,7 +19,9 @@ const NavBar = () => {
       <img className={style.logo} src={image} alt="Logo" />
       <div className={style.containerBtns}>
         <button
-          className={`${style.navBtn} ${activeButton === "" ? style.activeBtn : ""}`}
+          className={`${style.navBtn} ${
+            activeButton === "" ? style.activeBtn : ""
+          }`}
           onClick={() => {
             navigate("/");
           }}
@@ -27,7 +29,9 @@ const NavBar = () => {
           Home
         </button>
         <button
-          className={`${style.navBtn} ${activeButton === "projects" ? style.activeBtn : ""}`}
+          className={`${style.navBtn} ${
+            location.pathname.startsWith("/projects") ? style.activeBtn : ""
+          }`}
           onClick={() => {
             navigate("/projects");
           }}
@@ -35,7 +39,9 @@ const NavBar = () => {
           Projects
         </button>
         <button
-          className={`${style.navBtn} ${activeButton === "about" ? style.activeBtn : ""}`}
+          className={`${style.navBtn} ${
+            activeButton === "about" ? style.activeBtn : ""
+          }`}
           onClick={() => {
             navigate("/about");
           }}
