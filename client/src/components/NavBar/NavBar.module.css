@@ -9,14 +9,26 @@
     max-height: 60px;
 }
 
-.navBtn{
+.navBtn {
     height: 34px;
     width: 70px;
     margin: 0px 8px 0px;
     color: white;
     background-color: #111010;
     border: none;
-    border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.activeBtn {
+    height: 30px;
+    width: 70px;
+    margin: 0px 8px 0px;
+    color: white;
+    background-color: #111010;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #9a48af52;
 }
