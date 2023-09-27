@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Project1 from './components/About/Project1/Project1';
 import Project2 from './components/About/Project2/Project2';
 import Project3 from './components/About/Project3/Project3';
+import Footer from './components/Footer/Footer';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path='/projects/project2' element={<Project2/>}/>
         <Route path='/projects/project3' element={<Project3/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }

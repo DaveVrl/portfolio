@@ -8,10 +8,12 @@
     align-self: flex-start;
     margin: 14px 0 24px;
     font-size: 36px;
+    color: white;
 }
 
 .homeContainer p {
     text-align: center;
+    color: whitesmoke;
 }
 
 .image {
@@ -22,4 +24,25 @@
     filter: grayscale(100%);
     user-select: none;
     -webkit-user-drag: none;  
+}
+
+.containerLogos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.containerLogos img {
+    height: 40px;
+    margin: 2px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+@media screen and (max-width: 320px) {
+    .containerLogos {
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
 }
