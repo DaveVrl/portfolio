@@ -6,7 +6,7 @@
 
 .homeContainer h1 {
     align-self: flex-start;
-    margin: 14px 0 24px;
+    margin: 0px 0 24px;
     font-size: 36px;
     color: white;
 }
@@ -27,7 +27,7 @@
 }
 
 .containerLogos {
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     margin-bottom: 4px;
@@ -44,5 +44,9 @@
     .containerLogos {
         margin-top: 30px;
         flex-wrap: wrap;
+    }
+
+    .icon6 , .icon7 {
+        display: none;
     }
 }

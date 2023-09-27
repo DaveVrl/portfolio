@@ -26,6 +26,7 @@ const Home = () => {
                         key={index}
                         src={route}
                         alt={`Logo ${index}`}
+                        className={style[`icon${index}`]}
                     />
                 ))}
             </div>
