@@ -37,3 +37,31 @@
     user-select: none;
     -webkit-user-drag: none;
 }
+
+.containerAbout h1 {
+    margin: 44px 0 14px;
+    font-size: 36px;
+}
+
+.containerAbout p {
+    margin: 10px 12px;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.containerAbout hr {
+    opacity: 50%;
+    margin: 10px 0 10px;
+    width: 84vw;
+    align-self: center;
+}
+
+.containerButtons {
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 320px) {
+    .containerAbout h1 {
+        margin-top: 20px;
+    }
+}
