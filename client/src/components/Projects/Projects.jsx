@@ -11,12 +11,13 @@ const Projects = () => {
             <a className={style.a} href="/projects/project1">
                 <img src={lilianaImg} alt="foto" height="260px"/>
                 <h2>Liliana GameStore</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti architecto, veniam natus dolore vitae eligendi assumenda inventore corrupti maiores nostrum voluptates sunt consectetur obcaecati minima quam et molestiae accusantium.</p>
+                <p>Proyecto final de Henry desarrollado en equipo aplicando metodologia SCRUM. Es una tienda virtual enfocada a la venta de productos gamer.</p>
             </a>
+            <hr />
             <a className={style.a} href="/projects/project2">
                 <img src={pokmemonImg} alt="foto"/>
                 <h2>Pokémon SPA</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti architecto, veniam natus dolore vitae eligendi assumenda inventore corrupti maiores nostrum voluptates sunt consectetur obcaecati minima quam et molestiae accusantium.</p>
+                <p>Proyecto individual de Henry. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos.</p>
             </a>
             {/* <a className={style.a} href="/projects/project3">
                 <img src={image} alt="foto"/>

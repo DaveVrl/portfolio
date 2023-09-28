@@ -11,7 +11,6 @@
 }
 
 .containerProjects p {
-    text-align: initial;
     margin-top: 4px;
     margin-bottom: 20px;
 }
@@ -31,4 +30,11 @@
     user-select: none;
     -webkit-user-drag: none;
     margin: 20px 0 20px;
+}
+
+.containerProjects hr {
+    opacity: 50%;
+    margin: 10px 0 10px;
+    width: 84vw;
+    align-self: center;
 }
