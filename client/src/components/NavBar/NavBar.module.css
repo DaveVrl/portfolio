@@ -6,7 +6,7 @@
 }
 
 .logo {
-    max-height: 60px;
+    max-height: 50px;
     user-select: none;
     -webkit-user-drag: none;
 }
@@ -42,7 +42,6 @@
     
     .navContainer {
         justify-content: center;
-        padding-bottom: 14px;
+        padding-bottom: 10px;
     }
-    
 }
