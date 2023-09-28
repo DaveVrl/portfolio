@@ -1,26 +1,28 @@
-import image from "../../assets/example.jpg";
 import style from "./Projects.module.css";
+import lilianaImg from "../../assets/LilianaGameStore.png";
+import pokmemonImg from "../../assets/PokemonSPA.svg";
+// import image from "../../assets/example.jpg"
 
 const Projects = () => {
 
     return (
-        <div>
-            <h1>My Projects</h1>
+        <div className={style.containerProjects}>
+            <h1 className={style.h1_title}>My Projects</h1>
             <a className={style.a} href="/projects/project1">
-                <img src={image} alt="foto" height="260px"/>
-                <h1>Project1</h1>
+                <img src={lilianaImg} alt="foto" height="260px"/>
+                <h2>Liliana GameStore</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti architecto, veniam natus dolore vitae eligendi assumenda inventore corrupti maiores nostrum voluptates sunt consectetur obcaecati minima quam et molestiae accusantium.</p>
             </a>
             <a className={style.a} href="/projects/project2">
-                <img src={image} alt="foto" height="260px"/>
-                <h1>Project2</h1>
+                <img src={pokmemonImg} alt="foto"/>
+                <h2>Pokémon SPA</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti architecto, veniam natus dolore vitae eligendi assumenda inventore corrupti maiores nostrum voluptates sunt consectetur obcaecati minima quam et molestiae accusantium.</p>
             </a>
-            <a className={style.a} href="/projects/project3">
-                <img src={image} alt="foto" height="260px"/>
-                <h1>Project3</h1>
+            {/* <a className={style.a} href="/projects/project3">
+                <img src={image} alt="foto"/>
+                <h2>Project3</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti architecto, veniam natus dolore vitae eligendi assumenda inventore corrupti maiores nostrum voluptates sunt consectetur obcaecati minima quam et molestiae accusantium.</p>
-            </a>
+            </a> */}
         </div>
     )
 };
