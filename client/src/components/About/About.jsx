@@ -9,9 +9,12 @@ const About = () => {
     return (
         <div className={style.containerAbout}>
             <h1>About me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laborum quasi praesentium nesciunt iste dicta totam, sapiente, fugit omnis distinctio impedit assumenda delectus cumque dolorum, commodi nemo. Consectetur, illo ducimus.</p>
+            <p>¡Hola! soy David Varela, tengo 29 años y vivo en San Juan, Argentina.</p>
+            <p>Me adentré en la programación a principios del 2022, aprendí HTML, CSS y JavaScript básico de forma autodidácta haciendo cursos gratuitos y realizando diversas prácticas.
+            A principios del 2023 decidí dar un salto profesional ingresando a la academia Henry donde me gradué como Full Stack Web Developer.</p>
+            <p>Disfruto mucho de la programación, la música, el entrenamiento físico y el desarrollo personal.</p>
             <hr/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste autem corrupti, consequatur, omnis ex, quam asperiores ab temporibus eum ducimus nisi. Repudiandae voluptatem, amet iste magnam rerum possimus expedita.</p>
+            <p>Actualmente estoy en búsqueda de trabajo como Desarrollador Web Full Stack, me encantaría poder trabajar de forma remota para el exterior. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo.</p>
             <div className={style.containerButtons}>
                 <a href="">
                     <img className={style.contactIcon} src={linkedinIcon} alt="LogoLinkedin" />

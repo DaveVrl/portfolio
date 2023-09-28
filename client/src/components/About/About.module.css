@@ -27,9 +27,13 @@
 .contactIcon {
     object-fit: contain;
     width: 24px;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .arrow {
     object-fit: contain;
     width: 16px;
+    user-select: none;
+    -webkit-user-drag: none;
 }
