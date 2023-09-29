@@ -1,16 +1,22 @@
-import image from "../../../assets/example.jpg"
+import style from "../IndividualProject.module.css";
+import image from "../../../assets/LilianaGameStore.png";
 
 const Project1 = () => {
 
     return(
-        <div>
-            <h1>1</h1>
+        <div className={style.containerProject}>
+            <div className={style.containerTitle}>
+            <h1>Liliana GameStore</h1>
             <span>2023</span>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi facilis nobis est explicabo porro incidunt ipsa cumque neque, harum amet quidem consequuntur ratione eaque expedita dignissimos cum laborum iusto totam?</p>
-            <img src={image} alt="" height="280px"/>
-            <span>stack</span>
-            <span>platform</span>
-            <span>website</span>
+            </div>
+            <div className={style.containerSpan}>
+            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL, Sequelize.</p>
+            <p><span>PLATFORM</span> Windows.</p>
+            <p><span>WEBSITE</span> <a href="https://lilianagamesstore.onrender.com/" target="LilianaGamestore">Liliana GameStore</a></p>
+            </div>
+            <img src={image} alt="projectImage" height="280px"/>
+            <p className={style.pText}>Liliana Gamestore es un e-commerce de tipo B2C (Business to Consumer) desarrollado en equipo bajo metodología SCRUM. Este sitio incluye base de datos, servidor, controllers, rutas, paginados, filtros combinados, ordenamiento, formularios controlados, registro y login de usuarios, crud de admin, pasarela de pagos, favoritos, carrito de compra, reviews de productos, notificaciones, borrado lógico, local storage, Redux y estados.</p>
+            <p className={style.pText}> Fue un proyecto grupal asignado por Henry para evaluar competencias técnicas. Mi mayor enfoque fue en el desarrollo de controladores backend y base de datos.</p>
         </div>
     )
 };
