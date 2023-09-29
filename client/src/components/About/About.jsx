@@ -28,7 +28,7 @@ const About = () => {
                 </a>
                 <a href="mailto:doble.aguila@hotmail.com" target="sendEmail">
                     <img className={style.contactIcon} src={emailIcon} alt="LogoEmail" />
-                    <span>Email</span>
+                    <span>Send email</span>
                     <img className={style.arrow} src={arrow} alt="arrow" />
                 </a>
             </div>
