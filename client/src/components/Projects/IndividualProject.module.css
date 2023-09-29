@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.containerProject img {
+.imgProject {
     object-fit: contain;
     width: 240px;
     height: 240px;
@@ -62,4 +62,30 @@
 .containerSpan a {
     text-decoration: none;
     font-weight: 600;
+    color: #9a48afb5;
+}
+
+.imgBackArrow {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+
+.aBack {
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    height: 28px;
+    color: #9a48afb5;
+    margin: 0 0 10px;
+}
+
+@media screen and (max-width:320px) {
+    .containerTitle {
+        margin: 20px 0 4px;
+    }
 }
