@@ -48,7 +48,7 @@
     text-decoration: none;
     font-size: 18px;
     height: 28px;
-    color: #9a48af80;
+    color: #9a48afb5;
     margin: 0 0 10px;
 }
 
@@ -63,3 +63,9 @@
       pointer-events: none; /* Deshabilita eventos en los enlaces */
     }
   }
+
+@media (min-width: 1024px) {
+    .viewMore {
+        display: none;
+    }
+}
