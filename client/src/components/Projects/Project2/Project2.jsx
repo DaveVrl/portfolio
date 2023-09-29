@@ -1,16 +1,23 @@
-import image from "../../../assets/example.jpg"
+import style from "../IndividualProject.module.css";
+import image from "../../../assets/PokemonSPA.svg";
 
 const Project2 = () => {
 
     return(
-        <div>
-            <h1>2</h1>
+        <div className={style.containerProject}>
+            <div className={style.containerTitle}>
+            <h1>Pokémon SPA</h1>
             <span>2023</span>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi facilis nobis est explicabo porro incidunt ipsa cumque neque, harum amet quidem consequuntur ratione eaque expedita dignissimos cum laborum iusto totam?</p>
-            <img src={image} alt="" height="280px"/>
-            <span>stack</span>
-            <span>platform</span>
-            <span>website</span>
+            </div>
+            <div className={style.containerSpan}>
+            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL, Sequelize.</p>
+            <p><span>PLATFORM</span> Windows.</p>
+            <p><span>WEBSITE</span> <a href="https://spa-pokemon.onrender.com/" target="PokemonSPA">Pokémon SPA</a></p>
+            </div>
+            <img className={style.imgProject} src={image} alt="projectImage" height="280px"/>
+            <p className={style.pText}>Pokémon SPA es una single page application desarrollada de forma individual. Este sitio incluye consumo de API, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, paginado, rutas, controllers y base de datos.</p>
+            <p className={style.pText}>Fue un proyecto individual asignado por Henry para evaluar competencias técnicas. En esta aplicación podrás buscar tus pokémons preferidos, visualizar sus estadisticas y crear tu propio pokémon.</p>
+            <a className={style.aBack} href="/projects">Volver...</a>
         </div>
     )
 };
