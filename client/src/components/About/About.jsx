@@ -16,17 +16,17 @@ const About = () => {
             <hr/>
             <p>Actualmente estoy en búsqueda de trabajo, me encantaría poder trabajar de forma remota para el exterior. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo.</p>
             <div className={style.containerButtons}>
-                <a href="">
+                <a href="https://www.linkedin.com/in/davevrl/" target="linkedinProfile">
                     <img className={style.contactIcon} src={linkedinIcon} alt="LogoLinkedin" />
                     <span>Linkedin</span>
                     <img className={style.arrow} src={arrow} alt="arrow" />
                     </a>
-                <a href="">
+                <a href="https://github.com/DaveVrl" target="gitProfile">
                     <img className={style.contactIcon} src={githubIcon} alt="LogoGithub" />
                     <span>GitHub</span>
                     <img className={style.arrow} src={arrow} alt="arrow" />
                 </a>
-                <a href="">
+                <a href="mailto:doble.aguila@hotmail.com" target="sendEmail">
                     <img className={style.contactIcon} src={emailIcon} alt="LogoEmail" />
                     <span>Email</span>
                     <img className={style.arrow} src={arrow} alt="arrow" />
