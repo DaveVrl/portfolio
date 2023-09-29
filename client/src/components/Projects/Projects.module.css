@@ -57,3 +57,9 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .a {
+      pointer-events: none; /* Deshabilita eventos en los enlaces */
+    }
+  }
