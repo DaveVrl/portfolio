@@ -10,7 +10,7 @@ const Project1 = () => {
             <span>2023</span>
             </div>
             <div className={style.containerSpan}>
-            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL, Sequelize.</p>
+            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL.</p>
             <p><span>PLATFORM</span> Windows.</p>
             <p><span>WEBSITE</span> <a href="https://lilianagamesstore.onrender.com/" target="LilianaGamestore">LilianaGamestore</a></p>
             </div>

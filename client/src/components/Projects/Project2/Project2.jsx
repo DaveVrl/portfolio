@@ -10,7 +10,7 @@ const Project2 = () => {
             <span>2023</span>
             </div>
             <div className={style.containerSpan}>
-            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL, Sequelize.</p>
+            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL.</p>
             <p><span>PLATFORM</span> Windows.</p>
             <p><span>WEBSITE</span> <a href="https://spa-pokemon.onrender.com/" target="PokemonSPA">Pokémon SPA</a></p>
             </div>
