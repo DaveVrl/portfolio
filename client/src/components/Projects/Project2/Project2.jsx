@@ -16,7 +16,7 @@ const Project2 = () => {
             </div>
             <img className={style.imgProject} src={image} alt="projectImage" height="280px"/>
             <p className={style.pText}>Pokémon SPA es una single page application desarrollada de forma individual. Este sitio incluye consumo de API, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, paginado, rutas, controllers y base de datos.</p>
-            <p className={style.pText}>Fue un proyecto individual asignado por Henry para evaluar competencias técnicas. En esta aplicación podrás buscar tus pokémons preferidos, visualizar sus estadisticas y crear tu propio pokémon.</p>
+            <p className={style.pText}>Fue un proyecto individual asignado por Henry para evaluar competencias técnicas. En esta aplicación podrás buscar tus pokémons favoritos, visualizar sus estadisticas y crearte uno a tu gusto.</p>
             <a className={style.aBack} href="/projects">Volver...</a>
         </div>
     )
