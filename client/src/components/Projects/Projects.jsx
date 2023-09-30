@@ -21,6 +21,7 @@ const Projects = () => {
                 <p>Proyecto individual de Henry. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos.</p>
             </a>
             <a className={style.viewMore} href="/projects/project2">Ver más...</a>
+            <hr />
             {/* <a className={style.a} href="/projects/project3">
                 <img src={image} alt="foto"/>
                 <h2>Project3</h2>

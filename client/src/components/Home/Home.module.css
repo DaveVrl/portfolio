@@ -27,14 +27,13 @@
 }
 
 .containerLogos {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
 }
 
 .containerLogos img {
-    height: 40px;
+    height: 42px;
     margin: 2px;
     user-select: none;
     -webkit-user-drag: none;
@@ -53,8 +52,7 @@
 
 @media (min-width: 768px) {
     .containerLogos {
-        margin-top: 49px;
-        margin-bottom: 49px;
+        margin-top: 70px;
     }
 
     .containerLogos img {

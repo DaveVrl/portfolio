@@ -7,16 +7,27 @@
 .App {
     color: whitesmoke;
     background-color: #111010;
-    max-width: 100vw;
+    max-width: 1440px;
     min-height: 100vh;
     padding: 0 18px;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:flex-start;
+}
+
+.Background {
+  background-color: #111010;
 }
 
 @media (min-width: 768px) {
   .App {
-      padding: 0 120px;
+    padding: 0 120px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App {
+    flex-direction: row;
   }
 }

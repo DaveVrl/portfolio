@@ -74,10 +74,11 @@
 @media (min-width: 768px) {
     .containerAbout hr {
         margin: 20px 0;
+        width: 52vw;
     }
 
     .containerButtons {
-        margin: 26px 0 38px;
+        margin-top: 40px;
     }
 
     .containerButtons a {
