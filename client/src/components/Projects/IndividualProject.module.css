@@ -13,7 +13,7 @@
     padding: 8px;
     user-select: none;
     -webkit-user-drag: none;
-    margin: 12px 0 0;
+    margin: 20px 0 10px;
     align-self: center;
 }
 
@@ -88,4 +88,11 @@
     .containerTitle {
         margin: 20px 0 4px;
     }
+}
+
+@media (min-width: 768px) {
+    .imgProject {
+        width: 260px;
+        height: 260px;
+    }  
 }

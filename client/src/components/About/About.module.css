@@ -70,3 +70,17 @@
         margin-top: 20px;
     }
 }
+
+@media (min-width: 768px) {
+    .containerAbout hr {
+        margin: 20px 0;
+    }
+
+    .containerButtons {
+        margin: 26px 0 38px;
+    }
+
+    .containerButtons a {
+        margin: 12px 0;
+    }
+}

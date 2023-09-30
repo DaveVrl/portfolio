@@ -50,3 +50,19 @@
         display: none;
     }
 }
+
+@media (min-width: 768px) {
+    .containerLogos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .containerLogos img {
+        height: 46px;
+    }
+    
+    .image {
+        max-height: 260px;
+        max-width: 260px;
+    }
+}
