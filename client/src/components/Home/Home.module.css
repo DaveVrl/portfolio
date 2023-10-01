@@ -28,12 +28,13 @@
 
 .containerLogos {
     margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
 }
 
 .containerLogos img {
-    height: 42px;
+    height: 40px;
     margin: 2px;
     user-select: none;
     -webkit-user-drag: none;
