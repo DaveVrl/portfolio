@@ -35,7 +35,7 @@
 
 .containerProjects hr {
     opacity: 50%;
-    margin: 10px 0 10px;
+    margin: 10px auto 10px;
     width: 84vw;
     align-self: center;
 }
@@ -68,8 +68,33 @@
     }
   }
 
-/* @media (min-width: 1024px) {
-    .viewMore {
+@media (min-width: 1024px) {
+    .containerProjects p {
+        margin: 4px 48px 20px;
+    }
+
+    .h1_title {
+        margin-bottom: 38px;
+    }
+
+    .div_a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .containerProjects hr {
         display: none;
     }
-} */
+
+    .div_a_project {
+        width: 360px;
+        margin: 0 20px;
+    }
+
+    .a img {
+        width: 240px;
+        height: 240px;
+        margin: 20px 0 20px;
+    }
+}

@@ -86,3 +86,30 @@
         margin: 12px 0;
     }
 }
+
+@media (min-width: 1024px) {
+    .containerAbout h1 {
+        margin-bottom: 18px;
+    }
+
+    .containerAbout p {
+        margin: 20px 48px;
+        text-align: left;
+    }
+
+    .containerButtons {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+
+    .containerButtons a {
+        margin: 0 20px;
+    }
+
+    .containerAbout hr {
+        width: 100%;
+        align-self: flex-start;
+    }
+}
