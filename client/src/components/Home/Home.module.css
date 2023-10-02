@@ -65,3 +65,25 @@
         max-width: 260px;
     }
 }
+
+@media (min-width: 1024px) {
+    .homeContainer {
+        justify-content: center;
+    }
+
+    .containerLogos img {
+        height: 48px;
+    }
+
+    .containerLogos {
+        margin: 90px 0 0;
+    }
+
+    .homeContainer p {
+        margin: 0 48px;
+    }
+
+    .homeContainer h1 {
+        margin-bottom: 38px;
+    }
+} 

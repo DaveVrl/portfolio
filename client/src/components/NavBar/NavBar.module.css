@@ -48,19 +48,11 @@
 
 @media (min-width: 1024px) {
     .navContainer {
-        flex-direction: column;
-        justify-content:flex-start;
         align-items: center;
+        padding-top: 4vh;
     }
 
     .navBtn {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 16px 8px;
-    }
-
-    .logo {
-        margin-bottom: 20px;
+        margin: 16px 10px;
     }
 }

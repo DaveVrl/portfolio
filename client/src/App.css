@@ -7,7 +7,7 @@
 .App {
     color: whitesmoke;
     background-color: #111010;
-    max-width: 1440px;
+    max-width: 1024px;
     min-height: 100vh;
     padding: 0 18px;
     display: flex;
@@ -22,12 +22,11 @@
 
 @media (min-width: 768px) {
   .App {
-    padding: 0 120px;
+    padding: 0 100px;
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .App {
-    flex-direction: row;
   }
-}
+} */
