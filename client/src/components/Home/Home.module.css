@@ -86,4 +86,9 @@
     .homeContainer h1 {
         margin-bottom: 38px;
     }
+
+    .containerLogos img:hover {
+        transition: 0.6s;
+        transform: scale(1.2);
+     }
 } 

@@ -55,4 +55,8 @@
     .navBtn {
         margin: 16px 10px;
     }
+
+    .navBtn:hover {
+        cursor: pointer;
+    }
 }
