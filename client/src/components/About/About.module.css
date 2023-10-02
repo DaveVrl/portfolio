@@ -112,4 +112,14 @@
         width: 100%;
         align-self: flex-start;
     }
+
+    .containerButtons a:hover {
+        transition: 0.3s;
+        background-color: #9a48af80;
+    }
+
+    .containerButtons a:active {
+        transition: 0.1s;
+        background-color: transparent;
+    }
 }
