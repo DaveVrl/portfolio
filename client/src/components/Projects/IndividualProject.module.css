@@ -92,9 +92,6 @@
 }
 
 @media (min-width: 1024px) {
-    .pText {
-    }
-
     .containerTitle {
         margin: 44px 0 28px;
         align-items: center;
