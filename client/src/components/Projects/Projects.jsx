@@ -15,7 +15,7 @@ const Projects = () => {
                 <h2>Liliana GameStore</h2>
                 <p>Proyecto final de Henry desarrollado en equipo aplicando metodologia SCRUM. Es una tienda virtual enfocada a la venta de productos gamer.</p>
             </a>
-            <a className={style.viewMore} href="/projects/project1">Ver más...</a>
+            <a className={style.viewMore} href="/projects/project1">Ver más</a>
                 </div>
             <hr />
                 <div className={style.div_a_project}>
@@ -24,7 +24,7 @@ const Projects = () => {
                 <h2>Pokémon SPA</h2>
                 <p>Proyecto individual de Henry. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos.</p>
             </a>
-            <a className={style.viewMore} href="/projects/project2">Ver más...</a>
+            <a className={style.viewMore} href="/projects/project2">Ver más</a>
                 </div>
             <hr />
             </div>

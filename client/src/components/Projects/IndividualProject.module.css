@@ -21,7 +21,7 @@
 .containerTitle {
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items:center;
     margin: 44px 0 4px;
 }
 
@@ -69,13 +69,21 @@
 .aBack {
     display: flex;
     justify-content: center;
-    align-self: center;
-    align-items: center;
     text-decoration: none;
-    font-size: 18px;
-    height: 28px;
-    color: #9a48afb5;
-    margin: 10px 0 10px;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    border: 2px outset white;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #9a48af80;
+}
+/* #9a48afb5 */
+.aBack:active {
+    background-color: #9a48af80;
 }
 
 @media screen and (max-width:320px) {
@@ -104,6 +112,16 @@
     }
 
     .aBack {
-        margin: 40px 0 40px;
+        margin: 40px auto 40px;
+    }
+
+    .aBack:hover {
+        transition: 0.3s;
+        background-color: #9a48af80;
+    }
+
+    .aBack:active {
+        transition: 0.1s;
+        background-color: transparent;
     }
 }

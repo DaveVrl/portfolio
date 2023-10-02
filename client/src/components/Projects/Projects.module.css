@@ -43,13 +43,21 @@
 .viewMore {
     display: flex;
     justify-content: center;
-    align-self: center;
-    align-items: center;
     text-decoration: none;
-    font-size: 18px;
-    height: 28px;
-    color: #9a48afb5;
-    margin: 0 0 10px;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    border: 2px outset white;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #9a48af80;
+}
+/* #9a48afb5 */
+.viewMore:active {
+    background-color: #9a48af80;
 }
 
 .a {
@@ -96,5 +104,15 @@
         width: 240px;
         height: 240px;
         margin: 20px 0 20px;
+    }
+
+    .viewMore:hover {
+        transition: 0.3s;
+        background-color: #9a48af80;
+    }
+
+    .viewMore:active {
+        transition: 0.1s;
+        background-color: transparent;
     }
 }
