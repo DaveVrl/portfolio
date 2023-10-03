@@ -14,7 +14,7 @@ const About = () => {
             A principios del 2023 decidí dar un salto profesional ingresando a la academia Henry donde me gradué como Full Stack Web Developer.</p>
             <p>Disfruto mucho de la programación, la música, el entrenamiento físico y el desarrollo personal.</p>
             <hr/>
-            <p>Actualmente estoy en búsqueda de trabajo, me encantaría poder trabajar de forma remota para el exterior. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo.</p>
+            <p>Actualmente estoy en búsqueda de trabajo, me encantaría poder realizarlo de forma remota. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo.</p>
             <div className={style.containerButtons}>
                 <a href="https://www.linkedin.com/in/davevrl/" target="linkedinProfile">
                     <img className={style.contactIcon} src={linkedinIcon} alt="LogoLinkedin" />
