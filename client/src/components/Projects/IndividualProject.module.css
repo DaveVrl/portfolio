@@ -24,7 +24,7 @@
     user-select: none;
     -webkit-user-drag: none;
     opacity: 0; /* Comienza con opacidad 0 */
-    animation: fadeIn 0.3s ease-in-out forwards;
+    animation: fadeIn 0.4s ease-in-out forwards;
 }
  @keyframes fadeIn {
     0% {
