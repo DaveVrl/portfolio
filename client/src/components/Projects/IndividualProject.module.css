@@ -5,15 +5,6 @@
     margin-bottom: 20px;
 }
 
-.imgProject {
-    object-fit: contain;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    user-select: none;
-    -webkit-user-drag: none;
-}
-
 .containerImg {
     width: 240px;
     height: 240px;
@@ -23,8 +14,17 @@
     margin: 20px auto 10px;
     border: inset 2px rgb(255, 255, 255);
     border-radius: 20%;
-
 }
+
+.imgProject {
+    object-fit: contain;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 
 .containerTitle {
     display: flex;
@@ -101,10 +101,15 @@
 }
 
 @media (min-width: 768px) {
-    .imgProject {
+    .containerImg {
         width: 260px;
         height: 260px;
-    }  
+    }
+
+    .imgProject {
+        width: 260px;
+        height: 260px;  
+    }
 }
 
 @media (min-width: 1024px) {
@@ -113,8 +118,13 @@
         align-items: center;
     }
 
-    .imgProject {
+    .containerImg {
         margin-bottom: 20px;
+        width: 280px;
+        height: 280px;
+    }
+
+    .imgProject {
         width: 280px;
         height: 280px;
     }
