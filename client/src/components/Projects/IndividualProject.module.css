@@ -9,13 +9,21 @@
     object-fit: contain;
     width: 240px;
     height: 240px;
-    border: inset 2px rgb(255, 255, 255);
-    border-radius: 20%;
-    padding: 8px;
+    padding: 10px;
     user-select: none;
     -webkit-user-drag: none;
-    margin: 20px 0 10px;
-    align-self: center;
+}
+
+.containerImg {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 10px;
+    border: inset 2px rgb(255, 255, 255);
+    border-radius: 20%;
+
 }
 
 .containerTitle {
