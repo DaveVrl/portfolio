@@ -12,7 +12,7 @@ const Project2 = () => {
             <div className={style.containerSpan}>
             <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL.</p>
             <p><span>PLATFORM</span> Windows.</p>
-            <p><span>WEBSITE</span> <a href="https://spa-pokemon.onrender.com/" target="PokemonSPA">Pokémon SPA</a></p>
+            <p><span>REPOSITORY</span> <a href="https://github.com/DaveVrl/SPA-Pokemon" target="PokemonSPA">Pokémon SPA</a></p>
             </div>
             <div className={style.containerImg}>
             <img className={style.imgProject} src={image}alt="projectImage"/>

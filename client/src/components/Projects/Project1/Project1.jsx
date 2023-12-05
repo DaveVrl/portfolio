@@ -12,7 +12,7 @@ const Project1 = () => {
             <div className={style.containerSpan}>
             <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL.</p>
             <p><span>PLATFORM</span> Windows.</p>
-            <p><span>WEBSITE</span> <a href="https://lilianagamesstore.onrender.com/" target="LilianaGamestore">LilianaGamestore</a></p>
+            <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore">LilianaGamestore</a></p>
             </div>
             <div className={style.containerImg}>
             <img className={style.imgProject} src={image} alt="projectImage"/>
