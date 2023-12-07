@@ -22,7 +22,7 @@
     align-items: center;
     border-radius: 50%;
     margin: 40px 0 40px;
-    height: 260px;
+    height: 200px;
 }
 
 .image {
@@ -84,6 +84,10 @@
     .image {
         max-height: 260px;
         max-width: 260px;
+    }
+
+    .profile_image_container {
+        height: 260px;
     }
 }
 
