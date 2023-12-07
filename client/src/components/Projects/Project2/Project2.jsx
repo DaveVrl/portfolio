@@ -10,8 +10,8 @@ const Project2 = () => {
             <span>2023</span>
             </div>
             <div className={style.containerSpan}>
-            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL.</p>
-            <p><span>PLATFORM</span> Web.</p>
+            <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL</p>
+            <p><span>PLATFORM</span> Web</p>
             <p><span>REPOSITORY</span> <a href="https://github.com/DaveVrl/SPA-Pokemon" target="PokemonSPA">Pokémon SPA</a></p>
             </div>
             <div className={style.containerImg}>
