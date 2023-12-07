@@ -16,11 +16,19 @@
     color: whitesmoke;
 }
 
+.profile_image_container {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 40px 0 40px;
+    height: 260px;
+}
+
 .image {
     max-height: 200px;
     max-width: 200px;
     border-radius: 50%;
-    margin: 40px 0 40px;
     filter: grayscale(100%);
     user-select: none;
     -webkit-user-drag: none;  
