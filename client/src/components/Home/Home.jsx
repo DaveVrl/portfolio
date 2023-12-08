@@ -41,7 +41,7 @@ const Home = () => {
       <p>
         Estoy listo para afrontar desafíos y colaborar en proyectos. Tengo mucho
         interés en seguir sumando conocimiento. Si buscas un desarrollador web
-        apasionado y comprometido, ¡no dudes en contactarme!
+        apasionado y comprometido ¡no dudes en contactarme!
       </p>
       <div className={style.containerLogos}>
         {imageRoute.map((route, index) => (
