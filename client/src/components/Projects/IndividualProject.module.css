@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
+    opacity: 0; /* Comienza con opacidad 0 */
+    animation: fadeIn 0.4s ease-in-out forwards;
 }
 
 .containerImg {
@@ -23,9 +25,8 @@
     padding: 10px;
     user-select: none;
     -webkit-user-drag: none;
-    opacity: 0; /* Comienza con opacidad 0 */
-    animation: fadeIn 0.4s ease-in-out forwards;
 }
+
  @keyframes fadeIn {
     0% {
         opacity: 0; /* Opacidad inicial al 0% */
