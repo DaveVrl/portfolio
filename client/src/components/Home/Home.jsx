@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       <p>
         Estoy listo para afrontar desafíos y colaborar en proyectos. Tengo mucho
-        interés en seguir sumando conocimiento. Si buscas un desarrollador web
+        interés en seguir sumando conocimientos. Si buscas un desarrollador web
         apasionado y comprometido ¡no dudes en contactarme!
       </p>
       <div className={style.containerLogos}>
