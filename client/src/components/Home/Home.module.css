@@ -24,12 +24,12 @@
     align-items: center;
     border-radius: 50%;
     margin: 40px 0 40px;
-    height: 230px;
+    height: 220px;
 }
 
 .image {
-    max-height: 230px;
-    max-width: 230px;
+    max-height: 220px;
+    max-width: 220px;
     border-radius: 50%;
     filter: grayscale(100%);
     user-select: none;
