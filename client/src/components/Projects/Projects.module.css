@@ -84,9 +84,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 425px) {
     .containerProjects hr {
-        width: 52vw;
+        width: 357px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerProjects hr {
+        width: 400px;
     }
   }
 

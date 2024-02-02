@@ -20,10 +20,23 @@
   background-color: #111010;
 }
 
+@media (min-width: 425px) {
+  .App {
+    max-width: 425px;
+  }
+}
+
 @media (min-width: 768px) {
   .App {
     padding: 0 100px;
+    max-width: 768px;
   }
+
+@media (min-width: 1024px) {
+  .App {
+    max-width: 1024px;
+  }
+}
 }
 
 /* @media (min-width: 1024px) {

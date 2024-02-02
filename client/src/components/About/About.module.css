@@ -91,10 +91,16 @@
     }
 }
 
+@media (min-width: 425px) {
+    .containerAbout hr {
+        width: 357px;
+    }
+}
+
 @media (min-width: 768px) {
     .containerAbout hr {
         margin: 20px 0;
-        width: 52vw;
+        width: 548px;
     }
 
     .containerButtons {
