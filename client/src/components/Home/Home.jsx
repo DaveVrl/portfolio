@@ -9,8 +9,12 @@ import reduxImage from "../../assets/redux.png";
 import postgresqlImage from "../../assets/postgresql.png";
 import nodejsImage from "../../assets/node-js.png";
 import gitImage from "../../assets/git.svg";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  
+  const { t } = useTranslation();
+
   const imageRoute = [
     postgresqlImage,
     nodejsImage,
@@ -26,10 +30,7 @@ const Home = () => {
     <div className={style.homeContainer}>
       <h1>David Varela</h1>
       <p>
-        ¡Hola! Soy un Full Stack Web Developer con enfoque en la creación de
-        soluciones modernas y atractivas. Mi objetivo es utilizar mis
-        habilidades y experiencia en el desarrollo web para brindar soluciones
-        impactantes y de calidad.
+        {t("home.paragraph1")}
       </p>
       <div className={style.profile_image_container}>
         <img
@@ -39,9 +40,7 @@ const Home = () => {
       />
       </div>
       <p>
-        Estoy listo para afrontar desafíos y colaborar en proyectos. Tengo mucho
-        interés en seguir sumando conocimientos. Si buscas un desarrollador web
-        apasionado y comprometido ¡no dudes en contactarme!
+        {t("home.paragraph2")}
       </p>
       <div className={style.containerLogos}>
         {imageRoute.map((route, index) => (

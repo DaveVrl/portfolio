@@ -7,10 +7,13 @@ import About from './components/About/About';
 import Project1 from './components/Projects/Project1/Project1';
 import Project2 from './components/Projects/Project2/Project2';
 import Footer from './components/Footer/Footer';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 
 function App() {
   
   return (
+    <I18nextProvider i18n={i18n}>
     <div className='Background'>
       <div className="App">
         <NavBar/>
@@ -24,6 +27,7 @@ function App() {
       </div>
       <Footer/>
     </div>
+    </I18nextProvider>
   )
 }
 

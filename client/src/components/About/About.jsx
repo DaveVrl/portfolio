@@ -3,31 +3,27 @@ import githubIcon from "../../assets/white-git-icon.svg";
 import linkedinIcon from "../../assets/white-linkedin-icon.svg";
 import emailIcon from "../../assets/white-email-icon.png";
 import arrow from "../../assets/white-arrow-right.png";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className={style.containerAbout}>
       <h1>About Me</h1>
       <p>
-        ¡Hola! soy David Varela, tengo 29 años y vivo en San Juan, Argentina.
+        {t("about.paragraph1")}
       </p>
       <p>
-        Me adentré en la programación por cuenta propia, aprendí HTML, CSS y
-        JavaScript básico de forma autodidácta haciendo cursos gratuitos y
-        realizando diversas prácticas. A principios del 2023 decidí dar un salto
-        profesional ingresando a la academia Henry donde me gradué como Full
-        Stack Web Developer.
+        {t("about.paragraph2")}
       </p>
       <p>
-        Disfruto mucho de la programación, la música, el entrenamiento físico y
-        el desarrollo personal.
+        {t("about.paragraph3")}
       </p>
       <hr />
       <p>
-        Actualmente estoy en búsqueda de trabajo, me encantaría poder realizarlo
-        de forma remota. Tengo gran interés en aportar mis conocimientos y
-        potenciarlos junto a mis habilidades siendo parte de un equipo de
-        trabajo.
+        {t("about.paragraph4")}
       </p>
       <div className={style.containerButtons}>
         <a href="https://www.linkedin.com/in/davevrl/" target="linkedinProfile">

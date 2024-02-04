@@ -1,0 +1,30 @@
+{
+    "home": {
+        "paragraph1":"¡Hello! I am a Full Stack Web Developer with a focus on creating modern and engaging solutions. My goal is to use my skills and experience in web development to deliver impactful and high-quality solutions.",
+        "paragraph2":"I am ready to face challenges and collaborate on projects. I have a keen interest in continuously expanding my knowledge. If you are looking for a passionate and dedicated web developer, feel free to contact me!"
+    },
+    "project_card": {
+        "description_project_1":"Final project at Henry developed as a team applying SCRUM methodology. It's a virtual store focused on selling gamer products.",
+        "description_project_2":"Individual project at Henry. It is a single-page application with a Pokémon theme, developed to showcase acquired knowledge."
+    },
+    "project_1_full_description": {
+        "paragraph1":"Liliana Gamestore is a B2C (Business to Consumer) e-commerce developed as a team under the SCRUM methodology. This site includes a database, server, controllers, routes, pagination, combined filters, sorting, controlled forms, user registration and login, admin CRUD operations, payment gateway, favorites, shopping cart, product reviews, notifications, logical deletion, local storage, Redux, and state management.",
+        "paragraph2":"It was a group project assigned by Henry to assess technical competencies. My primary focus was on the development of backend controllers and the database.",
+        "paragraph3":"Technologies used: Frontend (HTML, CSS3, Bootstrap, JavaScript with React and Redux), Backend (Node.js with Express.js and JavaScript), Database (PostgreSQL with Sequelize), Payment API (MercadoPago)."
+    },
+    "project_2_full_description": {
+        "paragraph1":"Pokémon SPA is a single-page application developed individually. This site includes API consumption, searches, filters, sorting, controlled forms, Redux and state management, pagination, routes, controllers, and a database.",
+        "paragraph2":"It was an individual project assigned by Henry to assess technical competencies. In this application, you can search for your favorite Pokémon, view their statistics, and create one according to your preferences.",
+        "paragraph3":"Technologies used: Frontend (HTML, CSS3, JavaScript with React and Redux), Backend (Node.js with Express.js and JavaScript), Database (PostgreSQL with Sequelize)."
+    },
+    "about": {
+        "paragraph1":"Hello! I'm David Varela, I'm 29 years old, and I'm from San Juan, Argentina.",
+        "paragraph2":"I delved into programming on my own, learning HTML, CSS, and basic JavaScript through self-directed courses and various practical exercises. In early 2023, I decided to take a professional leap by joining the Henry academy, where I graduated as a Full Stack Web Developer.",
+        "paragraph3":"I greatly enjoy programming, music, physical training, and personal development.",
+        "paragraph4":"I am currently seeking employment, and I would love to work remotely. I am highly interested in contributing my knowledge and enhancing it, leveraging my skills as part of a team."
+    },
+    "buttons": {
+        "btn_view_more":"View more",
+        "btn_back":"Back"
+    }
+}

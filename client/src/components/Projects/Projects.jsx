@@ -2,8 +2,11 @@ import style from "./Projects.module.css";
 import lilianaImg from "../../assets/LilianaGameStore.png";
 import pokmemonImg from "../../assets/PokemonSPA.svg";
 // import image from "../../assets/example.jpg"
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+
+    const { t } = useTranslation();
 
     return (
         <div className={style.containerProjects}>
@@ -15,9 +18,9 @@ const Projects = () => {
                 <img src={lilianaImg} alt="foto"/>
                 </div>
                 <h2>Liliana GameStore</h2>
-                <p>Proyecto final de Henry desarrollado en equipo aplicando metodologia SCRUM. Es una tienda virtual enfocada a la venta de productos gamer.</p>
+                <p>{t("project_card.description_project_1")}</p>
             </div>
-            <a className={style.viewMore} href="/projects/project1">Ver más</a>
+            <a className={style.viewMore} href="/projects/project1">{t("buttons.btn_view_more")}</a>
                 </div>
             <hr />
                 <div className={style.div_a_project}>
@@ -26,9 +29,9 @@ const Projects = () => {
                 <img src={pokmemonImg} alt="foto"/>
                 </div>
                 <h2>Pokémon SPA</h2>
-                <p>Proyecto individual de Henry. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos.</p>
+                <p>{t("project_card.description_project_2")}</p>
             </div>
-            <a className={style.viewMore} href="/projects/project2">Ver más</a>
+            <a className={style.viewMore} href="/projects/project2">{t("buttons.btn_view_more")}</a>
                 </div>
             <hr />
             </div>
