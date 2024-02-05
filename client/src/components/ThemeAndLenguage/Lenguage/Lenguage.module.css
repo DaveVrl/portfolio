@@ -1,6 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
+    gap: 2px;
 }
 
 .btnLenguage {
@@ -8,4 +9,12 @@
     cursor: pointer;
     filter: grayscale(35%);
     object-fit: scale-down;
+}
+
+.container span {
+    align-self: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: system-ui;
+    color: rgba(245, 245, 245, 0.774);
 }

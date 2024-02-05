@@ -2,6 +2,14 @@
     display: flex;
     flex-direction:row-reverse;
     margin-top: 2px;
-    margin-right: 25px;
+    margin-right: 20px;
     height: 36px;
+}
+
+@media (max-width:320px) {
+    .container {
+        margin-right: 0;
+        align-self: center;
+        margin-bottom: 8px;
+    } 
 }
