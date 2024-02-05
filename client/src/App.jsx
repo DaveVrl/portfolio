@@ -9,7 +9,7 @@ import Project2 from './components/Projects/Project2/Project2';
 import Footer from './components/Footer/Footer';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
-import Lenguage from './components/Theme_And_Lenguage/Lenguage/Lenguage';
+import ThemeAndLenguage from './components/ThemeAndLenguage/ThemeAndLenguage';
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
     <I18nextProvider i18n={i18n}>
     <div className='Background'>
       <div className="App">
-        <Lenguage/>
+        <ThemeAndLenguage/>
         <NavBar/>
         <Routes> 
           <Route path='/' element={<Home/>}/>

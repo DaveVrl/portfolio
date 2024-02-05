@@ -68,6 +68,10 @@
     .icon6 , .icon7 {
         display: none;
     }
+
+    .homeContainer h1 {
+        margin: 20px 0 24px;
+}
 }
 
 @media (min-width: 768px) {

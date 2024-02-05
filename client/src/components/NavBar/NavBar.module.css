@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0 0px;
 }
 
 .logo {
@@ -49,7 +48,7 @@
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        padding-top: 4vh;
+        padding-top: 1vh;
     }
 
     .navBtn {

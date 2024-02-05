@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btnLenguage {
+    width: 34px;
+    cursor: pointer;
+    filter: grayscale(35%);
+    object-fit: scale-down;
+}
