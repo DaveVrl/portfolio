@@ -1,9 +1,10 @@
+import themeIcon from "../../../assets/theme-icon.png";
 
 const Theme = () => {
 
     return (
         <div>
-            <img src="" alt="Change Theme Button" />
+            <img src={themeIcon} alt="Change Theme Button" />
         </div>
     )
 };
