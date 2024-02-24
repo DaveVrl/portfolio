@@ -48,7 +48,7 @@
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        padding-top: 1vh;
+        padding-top: 20px;
     }
 
     .navBtn {
