@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <img className={style.arrow} src={arrow} alt="arrow" />
         </a>
-        <a href="mailto:doble.aguila@hotmail.com" target="sendEmail">
+        <a href="mailto:david.varela-dev@outlook.com" target="sendEmail">
           <div className={style.containerImgSpan}>
             <img
               className={style.contactIcon}
