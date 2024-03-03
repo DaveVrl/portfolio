@@ -1,10 +1,12 @@
 import style from "../IndividualProject.module.css";
 import image from "../../../assets/LilianaGameStore.png";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const Project1 = () => {
 
     const { t } = useTranslation();
+    const navigate = useNavigate();
 
     return(
         <div className={style.containerProject}>
@@ -23,7 +25,7 @@ const Project1 = () => {
             <p className={style.pText}>{t("project_1_full_description.paragraph1")}</p>
             <p className={style.pText}>{t("project_1_full_description.paragraph2")}</p>
             <p className={style.pText}>{t("project_1_full_description.paragraph3")}</p>
-            <a className={style.aBack} href="/projects">{t("buttons.btn_back")}</a>
+            <a className={style.aBack} onClick={()=>{navigate('/projects')}}>{t("buttons.btn_back")}</a>
         </div>
     )
 };
