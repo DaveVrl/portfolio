@@ -8,6 +8,17 @@ const Project2 = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
 
+    const handleBackClick = () => {
+        navigate("/");
+        // Espera a que la navegación ocurra y luego mueve el scroll
+        setTimeout(() => {
+            const projectsSection = document.getElementById("projects");
+            if (projectsSection) {
+                projectsSection.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 0); // Asegúrate de que el scroll se aplique después de la navegación
+    };
+
     return(
         <div className={style.containerProject}>
             <div className={style.containerTitle}>
@@ -25,7 +36,7 @@ const Project2 = () => {
             <p className={style.pText}>{t("project_2_full_description.paragraph1")}</p>
             <p className={style.pText}>{t("project_2_full_description.paragraph2")}</p>
             <p className={style.pText}>{t("project_2_full_description.paragraph3")}</p>
-            <a className={style.aBack} onClick={()=>{navigate('/projects')}}>{t("buttons.btn_back")}</a>
+            <a className={style.aBack} onClick={handleBackClick}>{t("buttons.btn_back")}</a>
         </div>
     )
 };

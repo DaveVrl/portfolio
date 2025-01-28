@@ -1,52 +1,52 @@
 import style from "./NavBar.module.css";
 import image from "../../assets/computer-logo-icon.svg";
-import { useNavigate, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { useState } from "react";
 
 const NavBar = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [activeButton, setActiveButton] = useState("");
-
-  useEffect(() => {
-    // Obtenemos el nombre de la ruta activa sin el /
-    const activeRoute = location.pathname.slice(1);
-    setActiveButton(activeRoute);
-  }, [location]);
+  const [activeButton, setActiveButton] = useState("home");
+  console.log(activeButton)
+  const handleSetActive = (to) => {
+    setActiveButton(to);
+  };
 
   return (
     <div className={style.navContainer}>
       <img className={style.logo} src={image} alt="Logo" />
       <div className={style.containerBtns}>
-        <button
-          className={`${style.navBtn} ${
-            activeButton === "" ? style.activeBtn : ""}`} //
-          onClick={() => {
-            navigate("/");
-          }}
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className={`${style.navBtn} ${activeButton === "home" ? style.activeBtn : ""}`}
+          onSetActive={() => handleSetActive("home")}
         >
           Home
-        </button>
-        <button
-          className={`${style.navBtn} ${
-            location.pathname.startsWith("/projects") ? style.activeBtn : ""
-          }`}
-          onClick={() => {
-            navigate("/projects");
-          }}
+        </Link>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className={`${style.navBtn} ${activeButton === "projects" ? style.activeBtn : ""}`}
+          onSetActive={() => handleSetActive("projects")}
         >
           Projects
-        </button>
-        <button
-          className={`${style.navBtn} ${
-            activeButton === "about" ? style.activeBtn : ""
-          }`}
-          onClick={() => {
-            navigate("/about");
-          }}
+        </Link>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className={`${style.navBtn} ${activeButton === "about" ? style.activeBtn : ""}`}
+          onSetActive={() => handleSetActive("about")}
         >
           About
-        </button>
+        </Link>
       </div>
     </div>
   );

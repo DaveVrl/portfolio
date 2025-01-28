@@ -10,6 +10,11 @@ const Projects = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
 
+    const handleNavigation = (pathname) => {
+        navigate(pathname);
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className={style.containerProjects}>
             <h1 className={style.h1_title}>My Projects</h1>
@@ -22,7 +27,7 @@ const Projects = () => {
                 <h2>Liliana GameStore</h2>
                 <p>{t("project_card.description_project_1")}</p>
             </div>
-            <a className={style.viewMore} onClick={()=>{navigate('/projects/project1')}}>{t("buttons.btn_view_more")}</a>
+            <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
                 </div>
             <hr />
                 <div className={style.div_a_project}>
@@ -33,7 +38,7 @@ const Projects = () => {
                 <h2>Pokémon SPA</h2>
                 <p>{t("project_card.description_project_2")}</p>
             </div>
-            <a className={style.viewMore} onClick={()=>{navigate('/projects/project2')}}>{t("buttons.btn_view_more")}</a>
+            <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/pokemon-spa')}}>{t("buttons.btn_view_more")}</a>
                 </div>
             <hr />
             </div>
