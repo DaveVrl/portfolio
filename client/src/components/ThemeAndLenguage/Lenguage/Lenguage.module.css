@@ -5,7 +5,7 @@
 }
 
 .btnLenguage {
-    width: 34px;
+    width: 30px;
     cursor: pointer;
     filter: grayscale(35%);
     object-fit: scale-down;

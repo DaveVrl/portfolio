@@ -8,7 +8,7 @@
     z-index: 1000;
     background-color: #111010e8;
     border-radius: 2px;
-    height: 48px;
+    height: 50px;
 }
 
 .logo {
@@ -48,7 +48,8 @@
 .btns_and_lenguage_container {
     display: flex;
     align-items: baseline;
-    gap: 26px;
+    width: 89%;
+    justify-content: space-between;
 }
 
 

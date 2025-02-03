@@ -4,6 +4,7 @@
     align-items: center;
     opacity: 0; /* Comienza con opacidad 0 */
     animation: fadeIn 0.4s ease-in-out forwards;
+    margin-top: 50px;
 }
 
 .homeContainer h1 {
@@ -14,7 +15,7 @@
 }
 
 .homeContainer p {
-    text-align: center;
+    text-align: initial;
     color: whitesmoke;
 }
 
@@ -23,7 +24,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 30px 0 30px;
+    margin: 20px 0 20px;
     height: 230px;
 }
 
@@ -47,7 +48,7 @@
 
 .containerLogos {
     margin-top: 60px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     display: flex;
     justify-content: center;
 }
@@ -61,7 +62,7 @@
 
 @media screen and (max-width: 370px) {
     .containerLogos {
-        margin-top: 30px;
+        margin-top: 20px;
         flex-wrap: wrap;
     }
 
@@ -70,7 +71,7 @@
     }
 
     .homeContainer h1 {
-        margin: 20px 0 24px;
+        margin: 15px 0 20px;
 }
 }
 
