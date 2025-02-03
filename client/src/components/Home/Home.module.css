@@ -59,7 +59,7 @@
     -webkit-user-drag: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
     .containerLogos {
         margin-top: 30px;
         flex-wrap: wrap;

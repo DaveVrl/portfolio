@@ -1,10 +1,14 @@
 .navContainer {
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
-    width: 284px;
+    width: 100%;
     position: fixed;
     z-index: 1000;
+    background-color: #111010e8;
+    border-radius: 2px;
+    height: 48px;
 }
 
 .logo {
@@ -14,44 +18,47 @@
 }
 
 .navBtn {
-    height: 34px;
-    width: 70px;
-    margin: 0px 8px 0px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 0px 4px 0px;
     color: white;
-    /* background-color: #111010; */
     border: none;
     font-size: 16px;
     font-weight: 600;
+    padding: 0 6px;
+}
+
+.containerBtns {
+    display: flex;
 }
 
 .activeBtn {
     height: 30px;
-    width: 70px;
-    margin: 0px 8px 0px;
+    margin: 0px 4px 0px;
     color: white;
-    background-color: #111010;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     font-weight: 600;
+    padding: 0 6px;
     background-color: #9a48af80;
 }
 
 .btns_and_lenguage_container {
     display: flex;
     align-items: baseline;
-    gap: 40px;
+    gap: 26px;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
     .logo {
         display: none;
     }
     
     .navContainer {
-        justify-content: center;
-        padding-bottom: 10px;
+        /* justify-content: center; */
     }
 }
 
