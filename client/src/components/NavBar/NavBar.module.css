@@ -2,10 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 284px;
+    position: fixed;
+    z-index: 1000;
 }
 
 .logo {
-    max-height: 50px;
+    max-height: 48px;
     user-select: none;
     -webkit-user-drag: none;
 }
@@ -15,7 +18,7 @@
     width: 70px;
     margin: 0px 8px 0px;
     color: white;
-    background-color: #111010;
+    /* background-color: #111010; */
     border: none;
     font-size: 16px;
     font-weight: 600;
@@ -34,8 +37,15 @@
     background-color: #9a48af80;
 }
 
+.btns_and_lenguage_container {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+}
+
+
 @media screen and (max-width: 320px) {
-    .logo{
+    .logo {
         display: none;
     }
     
@@ -45,10 +55,29 @@
     }
 }
 
+@media (min-width: 375px) {
+    .navContainer {
+        width: 339px;
+    }
+}
+
+@media (min-width: 425px) {
+    .navContainer {
+        width: 389px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navContainer {
+        width: 568px;
+    }
+}
+
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        padding-top: 15px;
+        margin-top: 15px;
+        width: 824px;
     }
 
     .navBtn {
@@ -57,5 +86,9 @@
 
     .navBtn:hover {
         cursor: pointer;
+    }
+
+    .logo {
+        max-height: 50px;
     }
 }
