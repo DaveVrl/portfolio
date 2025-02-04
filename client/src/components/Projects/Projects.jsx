@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/pokemon-spa')}}>{t("buttons.btn_view_more")}</a>
                 </div>
-            <hr />
+            
             </div>
         </div>
     )

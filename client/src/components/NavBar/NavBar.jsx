@@ -20,7 +20,7 @@ const NavBar = () => {
             to="home"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={500}
             className={`${style.navBtn} ${activeButton === "home" ? style.activeBtn : ""}`}
             onSetActive={() => handleSetActive("home")}
@@ -31,7 +31,7 @@ const NavBar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-20}
             duration={500}
             className={`${style.navBtn} ${activeButton === "projects" ? style.activeBtn : ""}`}
             onSetActive={() => handleSetActive("projects")}
@@ -42,7 +42,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-20}
             duration={500}
             className={`${style.navBtn} ${activeButton === "about" ? style.activeBtn : ""}`}
             onSetActive={() => handleSetActive("about")}

@@ -9,6 +9,7 @@ import i18n from './i18n';
 import { Routes, Route } from 'react-router-dom';
 import Project1 from './components/Projects/Project1/Project1';
 import Project2 from './components/Projects/Project2/Project2';
+import DownArrow from './components/DownArrow/DownArrow';
 
 function App() {
   return (
@@ -26,9 +27,11 @@ function App() {
                   <section id="home">
                     <Home />
                   </section>
+                  <DownArrow/>
                   <section id="projects">
                     <Projects />
                   </section>
+                  <DownArrow/>
                   <section id="about">
                     <About />
                   </section>
