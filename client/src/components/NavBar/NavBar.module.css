@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -15,6 +15,7 @@
     max-height: 48px;
     user-select: none;
     -webkit-user-drag: none;
+    display: none;
 }
 
 .navBtn {
@@ -53,15 +54,16 @@
 }
 
 
-@media screen and (max-width: 370px) {
-    .logo {
-        display: none;
-    }
+@media screen and (max-width: 374px) {
 }
 
 @media (min-width: 375px) {
     .navContainer {
         width: 339px;
+    }
+    
+    .btns_and_lenguage_container {
+        width: 100%;
     }
 }
 
@@ -69,11 +71,19 @@
     .navContainer {
         width: 389px;
     }
+
+    .btns_and_lenguage_container {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
     .navContainer {
         width: 568px;
+    }
+
+    .btns_and_lenguage_container {
+        width: 100%;
     }
 }
 
