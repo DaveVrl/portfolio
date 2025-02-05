@@ -13,7 +13,7 @@
     padding: 4px;
     user-select: none;
     -webkit-user-drag: none;
-    animation: bounce 1.8s infinite;
+    /* animation: bounce 1.8s infinite; */
 }
 
 .hrs {
@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(10px); }
-  }
+  } */

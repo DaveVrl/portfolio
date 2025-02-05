@@ -72,7 +72,17 @@
 
     .homeContainer h1 {
         margin: 15px 0 20px;
+    }
 }
+
+@media (min-width: 375px) {
+    .profile_image_container {
+        margin: 40px 0 40px;
+    }
+
+    .containerLogos {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 768px) {

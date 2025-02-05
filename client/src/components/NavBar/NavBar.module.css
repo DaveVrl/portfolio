@@ -58,13 +58,6 @@
 }
 
 @media (min-width: 375px) {
-    .navContainer {
-        width: 339px;
-    }
-    
-    .btns_and_lenguage_container {
-        width: 100%;
-    }
 }
 
 @media (min-width: 425px) {
