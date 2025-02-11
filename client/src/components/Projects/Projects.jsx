@@ -21,6 +21,8 @@ const Projects = () => {
             <h1 className={style.h1_title}>My Projects</h1>
             <div className={style.div_a}>
 
+{/*/////////////////////////////////////////////////////////////////////////////////*/}
+
             <div className={style.div_a_project}>
             <div className={style.cardProject}>
                 <div className={style.containerImg}>
@@ -31,10 +33,10 @@ const Projects = () => {
             </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
                 </div>
-
                 <hr />
 
 {/*/////////////////////////////////////////////////////////////////////////////////*/}
+
                 <div className={style.div_a_project}>
             <div className={style.cardProject}>
                 <div className={style.containerImg}>
@@ -45,8 +47,10 @@ const Projects = () => {
             </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
                 </div>
+                <hr />
 
-            <hr />
+{/*/////////////////////////////////////////////////////////////////////////////////*/}
+
                 <div className={style.div_a_project}>
             <div className={style.cardProject}>
                 <div className={style.containerImg}>
