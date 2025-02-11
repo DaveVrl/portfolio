@@ -29,7 +29,7 @@ const Projects = () => {
                 <img src={taksunity} alt="foto" />
                 </div>
                 <h2>TaskUnity</h2>
-                <p>{t("project_card.description_project_1")}</p>
+                <p>{t("project_card.description_project_3")}</p>
             </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
                 </div>

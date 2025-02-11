@@ -4,8 +4,9 @@
         "paragraph2":"Tengo mucho interés en seguir sumando conocimientos. Si buscas un desarrollador web dedicado ¡no dudes en contactarme!"
     },
     "project_card": {
-        "description_project_1":"Proyecto final de Henry desarrollado en equipo aplicando metodologia SCRUM. Es una tienda virtual enfocada a la venta de productos gamer.",
-        "description_project_2":"Proyecto individual de Henry. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos."
+        "description_project_1":"Proyecto académico final desarrollado en equipo aplicando metodologia SCRUM. Es una tienda virtual enfocada a la venta de productos gamer.",
+        "description_project_2":"Proyecto académico individual. Es una single page application con la temática de Pokémon, desarrollada para demostrar conocimientos adquiridos.",
+        "description_project_3":"Proyecto personal basado en Trello y Jira Software. Desarrollado con el objetivo de ofrecer una experiencia de usuario intuitiva y eficiente, de fácil y rápido acceso, donde los usuarios podrán organizar la trayectoria de sus desarrollos individuales o grupales haciendo uso de Tableros, Listas y Tarjetas."
     },
     "project_1_full_description": {
         "paragraph1":"Liliana Gamestore es un e-commerce de tipo B2C (Business to Consumer) desarrollado en equipo bajo metodología SCRUM. Este sitio incluye base de datos, servidor, controllers, rutas, paginados, filtros combinados, ordenamiento, formularios controlados, registro y login de usuarios, crud de admin, pasarela de pagos, favoritos, carrito de compra, reviews de productos, notificaciones, borrado lógico, local storage, Redux y estados.",
