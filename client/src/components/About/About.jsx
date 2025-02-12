@@ -21,10 +21,6 @@ const About = () => {
       <p>
         {t("about.paragraph3")}
       </p>
-      <hr />
-      <p>
-        {t("about.paragraph4")}
-      </p>
       <div className={style.containerButtons}>
         <a href="https://www.linkedin.com/in/davevrl/" target="linkedinProfile">
           <div className={style.containerImgSpan}>

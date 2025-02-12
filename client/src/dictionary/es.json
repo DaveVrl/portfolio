@@ -19,10 +19,9 @@
         "paragraph3":"Tecnologías utilizadas: Frontend (HTML, CSS3, JavaScript con React y Redux), Backend (Node.js con Express.js y JavaScript), Base de Datos (PostgreSQL con Sequelize)."
     },
     "about": {
-        "paragraph1":"¡Hola! soy David Varela, tengo 30 años y vivo en San Juan, Argentina.",
-        "paragraph2":"Me adentré en la programación por cuenta propia, aprendí HTML, CSS y JavaScript básico de forma autodidácta haciendo cursos gratuitos y realizando diversas prácticas. A principios del 2023 decidí dar un salto profesional ingresando a la academia Henry donde me gradué como Full Stack Web Developer.",
-        "paragraph3":"Disfruto mucho de la programación, la música, el entrenamiento físico y el desarrollo personal.",
-        "paragraph4":"Actualmente estoy en búsqueda de trabajo, me encantaría poder realizarlo de forma remota. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo."
+        "paragraph1":"¡Hola! mi nombre es David Varela, soy originario de Argentina.",
+        "paragraph2":"Me adentré en programación por cuenta propia, aprendí HTML, CSS y JavaScript básico de forma autodidácta haciendo cursos gratuitos y realizando diversas prácticas. A principios del 2023 decidí dar un salto profesional ingresando a la academia Henry donde me gradué como Full Stack Web Developer.",
+        "paragraph3":"Actualmente estoy en búsqueda de trabajo, me encantaría poder realizarlo de forma remota. Tengo gran interés en aportar mis conocimientos y potenciarlos junto a mis habilidades siendo parte de un equipo de trabajo."
     },
     "buttons": {
         "btn_view_more":"Ver más",
