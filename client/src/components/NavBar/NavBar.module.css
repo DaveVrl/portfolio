@@ -7,7 +7,7 @@
     position: fixed;
     z-index: 1000;
     background-color: #111010e8;
-    border-radius: 2px;
+    /* border-radius: 2px; */
     height: 50px;
 }
 
