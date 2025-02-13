@@ -8,12 +8,6 @@ const Contact = () => {
     return (
         <div className={style.containerContact}>
             <h1>Contact Me</h1>
-            <form className={style.contact_form_container}>
-                <input type="text" placeholder="Nombre"/>
-                <input type="email" placeholder="Email"/>
-                <textarea name="" id="" placeholder="Mensaje"/>
-                <button type="submit">Enviar</button>
-            </form>
             <div className={style.containerButtons}>
         <a href="https://www.linkedin.com/in/davevrl/" target="linkedinProfile">
           <div className={style.containerImgSpan}>
@@ -39,6 +33,13 @@ const Contact = () => {
           <img className={style.arrow} src={arrow} alt="arrow" />
         </a>
       </div>
+            <form className={style.contact_form_container}>
+                <input type="text" placeholder="Nombre"/>
+                <input type="email" placeholder="Email"/>
+                <textarea name="" id="" placeholder="Mensaje"/>
+                <button type="submit">Enviar</button>
+            </form>
+            
         </div>
     )
 };

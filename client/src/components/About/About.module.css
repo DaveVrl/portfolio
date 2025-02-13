@@ -50,15 +50,6 @@
         margin: 20px 0;
         width: 548px;
     }
-
-    .containerButtons {
-        margin-top: 40px;
-        margin-bottom: 50px;
-    }
-
-    .containerButtons a {
-        margin: 12px 0;
-    }
 }
 
 @media (min-width: 1024px) {
@@ -71,29 +62,8 @@
         text-align: left;
     }
 
-    .containerButtons {
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 80px;
-        margin-bottom: 0;
-    }
-
-    .containerButtons a {
-        margin: 0 20px;
-    }
-
     .containerAbout hr {
         width: 100%;
         align-self: flex-start;
-    }
-
-    .containerButtons a:hover {
-        transition: 0.3s;
-        background-color: #9a48af80;
-    }
-
-    .containerButtons a:active {
-        transition: 0.1s;
-        background-color: transparent;
     }
 }
