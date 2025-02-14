@@ -51,7 +51,7 @@
     padding: 0 6px;
     border-radius: 8px;
     background-color: transparent;
-    color: white;
+    color: #e5e5e5;
     border: 1px solid grey;
 }
 
@@ -60,7 +60,7 @@
     padding: 5px 6px;
     border-radius: 8px;
     background-color: transparent;
-    color: white;
+    color: #e5e5e5;
     border: 1px solid grey;
     resize: none;
 }

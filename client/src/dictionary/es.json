@@ -26,5 +26,12 @@
     "buttons": {
         "btn_view_more":"Ver más",
         "btn_back":"Volver"
+    },
+    "contact": {
+        "title":"Escríbeme un mensaje",
+        "input1":"Nombre *",
+        "input2":"Email *",
+        "textarea":"Escribe tu mensaje *",
+        "btn_send":"Enviar mensaje"
     }
 }
