@@ -2,6 +2,7 @@ import style from './Contact.module.css';
 import githubIcon from "../../assets/white-git-icon.svg";
 import linkedinIcon from "../../assets/white-linkedin-icon.svg";
 import arrow from "../../assets/white-arrow-right.png";
+import emailIcon from "../../assets/white-email-icon.png";
 
 const Contact = () => {
     
@@ -33,11 +34,26 @@ const Contact = () => {
           <img className={style.arrow} src={arrow} alt="arrow" />
         </a>
       </div>
+      
+      
             <form className={style.contact_form_container}>
-                <input type="text" placeholder="Nombre"/>
-                <input type="email" placeholder="Email"/>
-                <textarea name="" id="" placeholder="Mensaje"/>
-                <button type="submit">Enviar</button>
+                <div className={style.border_form}>
+            <h3>Escríbeme un mensaje</h3>
+                <input type="text" placeholder="Nombre *"/>
+                <input type="email" placeholder="Email *"/>
+                <textarea name="" id="" placeholder="Escribe tu mensaje *"/>
+                </div>
+                <button type="submit">
+                <div className={style.containerImgSpan}>
+            <img
+              className={style.contactIcon}
+              src={emailIcon}
+              alt="LogoEmail"
+            />
+            <span>Enviar mensaje</span>
+          </div>
+          <img className={style.arrow} src={arrow} alt="arrow" />
+                </button>
             </form>
             
         </div>

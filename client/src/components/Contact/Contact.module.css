@@ -26,25 +26,43 @@
 }
 
 /* FORMULARIO */
-.contact_form_container {
+
+/* .contact_form_container {
     gap: 12px;
-}
+} */
 
 .contact_form_container button {
-    height: 44px;
+    height: 48px;
     border-radius: 20px;
     border-color: #9a48af80;
     background-color: transparent;
     font-size: 16px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 24px;
+    padding: 0px 18px;
+    align-items: center;
+    cursor: pointer;
 }
 
 .contact_form_container input {
     height: 34px;
+    padding: 0 6px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
 }
 
 .contact_form_container textarea {
     height: 84px;
+    padding: 5px 6px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    resize: none;
 }
 
 /* ////////////////////////////////// */
@@ -88,7 +106,15 @@
     -webkit-user-drag: none;
 }
 
-.containerButtons a:active {
+.border_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #150f15; */
+    /* padding: 10px 8px; */
+}
+
+.containerButtons a:active , .contact_form_container button:active {
     background-color: #9a48af80;
 }
 
@@ -121,13 +147,14 @@
         margin: 0 20px;
     }
 
-    .containerButtons a:hover {
+    .containerButtons a:hover , .contact_form_container button:hover {
         transition: 0.3s;
         background-color: #9a48af80;
     }
 
-    .containerButtons a:active {
+    .containerButtons a:active , .contact_form_container button:active {
         transition: 0.1s;
         background-color: transparent;
+        border: 2px outset #9a48af80;
     }
 }
