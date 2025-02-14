@@ -135,6 +135,12 @@
     background-color: #9a48af80;
 }
 
+.tooltip {
+    color: white !important;
+    font-weight: 600 !important;
+    background-color: #9a48af !important;
+}
+
 @media screen and (max-width: 375px) {
     .containerContact h1 {
         margin-top: 14px;

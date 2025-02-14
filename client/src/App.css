@@ -22,6 +22,10 @@
   background-color: #111010;
 }
 
+.cursor-wait * {
+  cursor: wait !important;
+}
+
 @media (min-width: 425px) {
   .App {
     max-width: 425px;
