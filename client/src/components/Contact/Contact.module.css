@@ -40,7 +40,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    margin: 12px 0 24px;
+    margin: 14px 0 24px;
     padding: 0px 18px;
     align-items: center;
     cursor: pointer;
@@ -102,7 +102,7 @@
 
 .containerImgSpan {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .containerImgSpan span {
