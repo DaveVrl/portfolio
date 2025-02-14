@@ -93,9 +93,9 @@ const Contact = () => {
               {<Tooltip className={style.tooltip} id="tooltip-form" isOpen={tooltipVisible} place="bottom-end" variant="success" content="¡Tu mensaje ha sido enviado exitosamente!"/>}
               {<Tooltip id="tooltip-form" isOpen={errorTooltipVisible} place="bottom-end" variant="error" content="¡Ups! No se pudo enviar tu mensaje."/>}
           </div>
-          <input type="text" name="user_name" placeholder={t("contact.input1")} required />
-          <input type="email" name="user_email" placeholder={t("contact.input2")} required />
-          <textarea name="message" placeholder={t("contact.textarea")} required />
+          <input type="text" name="user_name" placeholder={t("contact.input1")} required pattern="^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$" />
+          <input type="email" name="user_email" placeholder={t("contact.input2")} required pattern=".*\S.*"  />
+          <textarea name="message" placeholder={t("contact.textarea")} required pattern="^(?![\s]+$)(?![0-9]+$)(?![^\w\s]+$).+$"   />
         </div>
         <button type="submit">
           <div className={style.containerImgSpan}>
