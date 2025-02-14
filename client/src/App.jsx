@@ -11,15 +11,17 @@ import Project1 from './components/Projects/Project1/Project1';
 import Project2 from './components/Projects/Project2/Project2';
 import DownArrow from './components/DownArrow/DownArrow';
 import Contact from './components/Contact/Contact';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+
+  const location = useLocation();
+
   return (
     <I18nextProvider i18n={i18n}>
         <div className='Background'>
           <div className="App">
-        
             <NavBar />
-            
             {/* Configura las rutas */}
             <Routes>
               {/* Ruta para la página principal */}
@@ -39,14 +41,12 @@ function App() {
                   <Contact/>
                 </>
               } />
-
               {/* Rutas para proyectos específicos */}
               <Route path="/projects/liliana-game-store" element={<Project1  />} />
               <Route path="/projects/pokemon-spa" element={<Project2  />} />
             </Routes>
-            
-            <Footer />
           </div>
+          { location.pathname.includes('/projects') ? null : <Footer /> }
         </div>
     </I18nextProvider>
   );
