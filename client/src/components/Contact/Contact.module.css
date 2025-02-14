@@ -65,6 +65,23 @@
     resize: none;
 }
 
+.h3_arrowDown h3 {
+    font-size: 20px;
+}
+
+.h3_arrowDown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.h3_arrowDown img {
+    width: 34px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 /* ////////////////////////////////// */
 
 .containerButtons a {
@@ -85,7 +102,7 @@
 
 .containerImgSpan {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .containerImgSpan span {
@@ -120,7 +137,7 @@
 
 @media screen and (max-width: 320px) {
     .containerContact h1 {
-        margin-top: 20px;
+        margin-top: 14px;
     }
 }
 
