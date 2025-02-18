@@ -110,7 +110,7 @@
     }
 
     .containerLogos img {
-        height: 48px;
+        height: 50px;
     }
 
     .containerLogos {
@@ -119,17 +119,27 @@
 
     .homeContainer p {
         margin: 0 48px;
-        font-size: 18px;
+        font-size: 17.5px;
     }
 
     .homeContainer h1 {
         font-size: 46px;
-        margin-bottom: 38px;
+        margin-bottom: 40px;
+        margin-top: 60px;
     }
 
     .containerLogos img:hover {
         transition: 0.6s;
         transform: scale(1.2);
      }
+
+    .image {
+        max-height: 270px;
+        max-width: 270px;
+    }
+    
+    .profile_image_container {
+        height: 270px;
+    }
      
 } 

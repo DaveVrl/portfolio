@@ -2,13 +2,12 @@
     display: flex;
     align-items: center;
     align-content: center;
-    /* justify-content: space-between; */
     width: 100%;
     position: fixed;
     z-index: 1000;
     background-color: #111010e8;
-    /* border-radius: 2px; */
     height: 50px;
+    backdrop-filter: blur(2px);
 }
 
 .logo {
@@ -83,12 +82,13 @@
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        /* margin-top: 15px; */
         width: 824px;
+        height: 56px;
     }
 
     .navBtn {
-        margin: 16px 10px;
+        margin: 0px 10px;
+        font-size: 17px;
     }
 
     .navBtn:hover {
