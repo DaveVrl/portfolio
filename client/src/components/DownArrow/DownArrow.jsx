@@ -7,7 +7,7 @@ const DownArrow = () => {
         <div className={style.arrow_down_general_container}>
             <hr className={style.hrs} />
             <img className={style.arrow_img} src={arrowImage} alt="down arrow" />
-            <hr className={style.hrs} />
+            <hr className={style.hrs2} />
         </div>
     )
 };
