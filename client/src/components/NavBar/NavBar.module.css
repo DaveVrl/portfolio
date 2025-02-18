@@ -83,7 +83,7 @@
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        margin-top: 15px;
+        /* margin-top: 15px; */
         width: 824px;
     }
 

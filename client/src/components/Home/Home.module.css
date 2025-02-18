@@ -114,14 +114,16 @@
     }
 
     .containerLogos {
-        margin: 90px 0 0;
+        margin: 70px 0 0;
     }
 
     .homeContainer p {
         margin: 0 48px;
+        font-size: 18px;
     }
 
     .homeContainer h1 {
+        font-size: 46px;
         margin-bottom: 38px;
     }
 
