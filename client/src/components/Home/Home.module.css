@@ -118,14 +118,14 @@
     }
 
     .homeContainer p {
-        margin: 0 48px;
+        margin: 0 32px;
         font-size: 17.5px;
     }
 
     .homeContainer h1 {
         font-size: 46px;
         margin-bottom: 40px;
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .containerLogos img:hover {

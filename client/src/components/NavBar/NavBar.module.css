@@ -27,6 +27,7 @@
     font-size: 16px;
     font-weight: 600;
     padding: 0 6px;
+    user-select: none;
 }
 
 .containerBtns {
@@ -50,6 +51,7 @@
     align-items: baseline;
     width: 89%;
     justify-content: space-between;
+    user-select: none;
 }
 
 

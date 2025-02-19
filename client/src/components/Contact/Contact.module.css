@@ -45,6 +45,7 @@
     padding: 0px 18px;
     align-items: center;
     cursor: pointer;
+    user-select: none;
 }
 
 .contact_form_container input {
@@ -99,6 +100,7 @@
     padding: 0px 18px;
     border-radius: 20px;
     border-color: #9a48af80;
+    user-select: none;
 }
 
 .containerImgSpan {

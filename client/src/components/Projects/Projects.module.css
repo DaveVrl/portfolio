@@ -70,6 +70,7 @@
     border-radius: 20px;
     border-color: #9a48af80;
     cursor: pointer;
+    user-select: none;
 }
 /* #9a48afb5 */
 .viewMore:active {
@@ -104,8 +105,8 @@
     }
 
     .h1_title {
-        margin-bottom: 40px;
-        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-top: 70px;
         font-size: 46px;
     }
 
@@ -117,10 +118,6 @@
 
     .containerProjects hr {
         margin: 40px auto 40px;
-    }
-
-    .div_a_project {
-        /* margin: 0 20px; */
     }
     
     .cardProject {
@@ -157,6 +154,7 @@
 
     .viewMore {
         margin: 0 ;
+        font-size: 16.5px;
     }
 
 
