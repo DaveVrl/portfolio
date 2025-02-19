@@ -28,10 +28,12 @@ const Projects = () => {
                 <div className={style.containerImg}>
                 <img src={taksunity} alt="foto" />
                 </div>
+                <div className={style.card_h2_and_p_container}>
                 <h2>TaskUnity</h2>
                 <p>{t("project_card.description_project_3")}</p>
-            </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
+                </div>
+            </div>
                 </div>
                 <hr />
 
@@ -42,10 +44,12 @@ const Projects = () => {
                 <div className={style.containerImg}>
                 <img src={lilianaImg} alt="foto"/>
                 </div>
+                <div className={style.card_h2_and_p_container}>
                 <h2>Liliana GameStore</h2>
                 <p>{t("project_card.description_project_1")}</p>
-            </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
+                </div>
+            </div>
                 </div>
                 <hr />
 
@@ -56,10 +60,12 @@ const Projects = () => {
                 <div className={style.containerImg}>
                 <img src={pokmemonImg} alt="foto"/>
                 </div>
+                <div className={style.card_h2_and_p_container}>
                 <h2>Pokémon SPA</h2>
                 <p>{t("project_card.description_project_2")}</p>
-            </div>
             <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/pokemon-spa')}}>{t("buttons.btn_view_more")}</a>
+                </div>
+            </div>
                 </div>
             
             </div>

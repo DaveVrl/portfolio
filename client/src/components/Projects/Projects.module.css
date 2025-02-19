@@ -10,6 +10,7 @@
     text-align: left;
     margin: 44px 0 20px;
     font-size: 36px;
+    color: white;
 }
 
 .containerProjects p {
@@ -99,37 +100,63 @@
 
 @media (min-width: 1024px) {
     .containerProjects p {
-        margin: 4px 48px 20px;
+        margin: 0;
     }
 
     .h1_title {
-        margin-bottom: 38px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+        font-size: 46px;
     }
 
     .div_a {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
 
     .containerProjects hr {
-        display: none;
+        margin: 40px auto 40px;
     }
 
     .div_a_project {
-        width: 360px;
-        margin: 0 20px;
+        /* margin: 0 20px; */
+    }
+    
+    .cardProject {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .containerImg {
-        width: 240px;
-        height: 240px;
-        margin: 20px auto 20px;
+        margin: 0;
+        width: 50%;
+    }
+
+    .card_h2_and_p_container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 20px;
+        margin: 10px 0;
+    }
+
+    .card_h2_and_p_container h2 {
+        font-size: 32px;
+    }
+
+    .card_h2_and_p_container p {
+        font-size: 17px;
     }
 
     .cardProject img {
-        width: 240px;
-        height: 240px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .viewMore {
+        margin: 0 ;
     }
 
 
