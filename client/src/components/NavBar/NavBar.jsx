@@ -6,7 +6,7 @@ import Lenguage from '../ThemeAndLenguage/Lenguage/Lenguage'
 
 const NavBar = () => {
   const [activeButton, setActiveButton] = useState("home");
-  console.log(activeButton)
+  
   const handleSetActive = (to) => {
     setActiveButton(to);
   };
