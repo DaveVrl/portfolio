@@ -16,6 +16,7 @@
 .containerContact h1 {
     margin: 14px 0 14px;
     font-size: 36px;
+    color: white;
 }
 
 .containerButtons {
@@ -73,7 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .h3_arrowDown img {
@@ -123,7 +124,7 @@
     -webkit-user-drag: none;
 }
 
-.border_form {
+.container_form_inputs {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -159,15 +160,23 @@
 }
 
 @media (min-width: 1024px) {
+
+    .containerContact h1 {
+        margin-top: 20px;
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+
     .containerButtons {
         flex-direction: row;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
     .containerButtons a {
         margin: 0 20px;
+        font-size: 16.5px;
     }
 
     .containerButtons a:hover , .contact_form_container button:hover {
@@ -179,5 +188,48 @@
         transition: 0.1s;
         background-color: transparent;
         border: 2px outset #9a48af80;
+    }
+
+    .h3_arrowDown {
+        margin: 40px 0 20px;
+    }
+
+    .h3_arrowDown h3 {
+        font-size: 32px;
+    }
+
+    .container_form_inputs {
+        margin: 0 20px;
+        gap: 14px;
+    }
+
+    .h3_arrowDown img {
+        margin-right: 20px;
+        width: 42px;
+    }
+
+    .contact_form_container button {
+        margin: 20px 20px 80px;
+        font-size: 16.5px;
+    }
+
+    .contact_form_container input {
+        height: 42px;
+        font-size: 16.5px;
+        padding: 0 12px;
+    }
+
+    .contact_form_container textarea {
+        height: 116px;
+        font-size: 16.5px;
+        padding: 6px 12px;
+    }
+
+    .contactIcon {
+        width: 30px;
+    }
+
+    .arrow {
+        width: 20px;
     }
 }

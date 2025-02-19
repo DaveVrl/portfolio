@@ -82,7 +82,6 @@ const Contact = () => {
         </a>
       </div>
       <form ref={formRef} className={style.contact_form_container} onSubmit={sendEmail}>
-        <div className={style.border_form}>
           <div className={style.h3_arrowDown}>
             <h3>{t("contact.title")}</h3>
             <img 
@@ -93,10 +92,13 @@ const Contact = () => {
               {<Tooltip className={style.tooltip} id="tooltip-form" isOpen={tooltipVisible} place="bottom-end" variant="success" content="¡Tu mensaje ha sido enviado exitosamente!"/>}
               {<Tooltip id="tooltip-form" isOpen={errorTooltipVisible} place="bottom-end" variant="error" content="¡Ups! No se pudo enviar tu mensaje."/>}
           </div>
+
+          <div className={style.container_form_inputs}>
           <input type="text" name="user_name" placeholder={t("contact.input1")} required pattern="^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$" />
           <input type="email" name="user_email" placeholder={t("contact.input2")} required pattern=".*\S.*"  />
           <textarea name="message" placeholder={t("contact.textarea")} required pattern="^(?![\s]+$)(?![0-9]+$)(?![^\w\s]+$).+$"   />
-        </div>
+          </div>
+        
         <button type="submit">
           <div className={style.containerImgSpan}>
             <img className={style.contactIcon} src={emailIcon} alt="LogoEmail" />
