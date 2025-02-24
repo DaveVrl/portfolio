@@ -9,6 +9,7 @@ import i18n from './i18n';
 import { Routes, Route } from 'react-router-dom';
 import Project1 from './components/Projects/Project1/Project1';
 import Project2 from './components/Projects/Project2/Project2';
+import Project3 from './components/Projects/Project3/Project3';
 import DownArrow from './components/DownArrow/DownArrow';
 import Contact from './components/Contact/Contact';
 import { useLocation } from 'react-router-dom';
@@ -44,6 +45,7 @@ function App() {
               {/* Rutas para proyectos específicos */}
               <Route path="/projects/liliana-game-store" element={<Project1  />} />
               <Route path="/projects/pokemon-spa" element={<Project2  />} />
+              <Route path="/projects/taskunity" element={<Project3  />} />
             </Routes>
           </div>
           { location.pathname.includes('/projects') ? null : <Footer /> }

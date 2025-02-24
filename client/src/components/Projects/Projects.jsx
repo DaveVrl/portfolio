@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className={style.card_h2_and_p_container}>
                 <h2>TaskUnity</h2>
                 <p>{t("project_card.description_project_3")}</p>
-            <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/liliana-game-store')}}>{t("buttons.btn_view_more")}</a>
+            <a className={style.viewMore} onClick={()=>{handleNavigation('/projects/taskunity')}}>{t("buttons.btn_view_more")}</a>
                 </div>
             </div>
                 </div>
