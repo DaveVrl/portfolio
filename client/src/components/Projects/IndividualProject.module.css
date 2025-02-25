@@ -41,11 +41,15 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    margin: 44px 0 4px;
+    margin: 65px 0 0;
 }
 
 .containerTitle h1 {
     font-size: 30px;
+}
+
+.carousel_container {
+    margin: 20px 0 10px;
 }
 
 .containerTitle span {
@@ -108,7 +112,7 @@
 
 @media screen and (max-width:320px) {
     .containerTitle {
-        margin: 20px 0 4px;
+        /* margin: 20px 0 4px; */
     }
 }
 

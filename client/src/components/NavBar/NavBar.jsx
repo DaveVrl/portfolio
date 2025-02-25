@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className={style.navContainer}>
       <img className={style.logo} src={image} alt="Logo" />
       <div className={style.btns_and_lenguage_container}>
-        <div className={style.containerBtns}> {/*AÑADIR DISPLAY FLEX o probar...*/}
+        <div className={style.containerBtns}>
           <Link
             to="home"
             spy={true}

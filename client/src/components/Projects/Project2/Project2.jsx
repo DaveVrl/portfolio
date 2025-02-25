@@ -10,13 +10,18 @@ const Project2 = () => {
 
     const handleBackClick = () => {
         navigate("/");
-        // Espera a que la navegación ocurra y luego mueve el scroll
+    
         setTimeout(() => {
             const projectsSection = document.getElementById("projects");
             if (projectsSection) {
                 projectsSection.scrollIntoView({ behavior: "smooth" });
+    
+                // Espera un poco para ajustar la posición del scroll
+                setTimeout(() => {
+                    window.scrollBy(0, -20); // Mueve 20px hacia arriba
+                }, 50); // Da tiempo a que termine el scroll inicial
             }
-        }, 0); // Asegúrate de que el scroll se aplique después de la navegación
+        }, 0);
     };
 
     return(
