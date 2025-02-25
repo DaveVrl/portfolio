@@ -12,13 +12,13 @@ const Project2 = () => {
         navigate("/");
     
         setTimeout(() => {
-            const projectsSection = document.getElementById("projects");
+            const projectsSection = document.getElementById("project_2");
             if (projectsSection) {
                 projectsSection.scrollIntoView({ behavior: "smooth" });
     
                 // Espera un poco para ajustar la posición del scroll
                 setTimeout(() => {
-                    window.scrollBy(0, -20); // Mueve 20px hacia arriba
+                    window.scrollBy(0, -70); // Mueve 70px hacia arriba
                 }, 50); // Da tiempo a que termine el scroll inicial
             }
         }, 0);

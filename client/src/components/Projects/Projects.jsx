@@ -39,7 +39,7 @@ const Projects = () => {
 
 {/*/////////////////////////////////////////////////////////////////////////////////*/}
 
-                <div className={style.div_a_project}>
+                <div className={style.div_a_project} id="project_1">
             <div className={style.cardProject}>
                 <div className={style.containerImg}>
                 <img src={lilianaImg} alt="foto"/>
@@ -55,7 +55,7 @@ const Projects = () => {
 
 {/*/////////////////////////////////////////////////////////////////////////////////*/}
 
-                <div className={style.div_a_project}>
+                <div className={style.div_a_project} id="project_2">
             <div className={style.cardProject}>
                 <div className={style.containerImg}>
                 <img src={pokmemonImg} alt="foto"/>
