@@ -95,7 +95,7 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    width: 120px;
+    width: 100%;
     height: 44px;
     align-items: center;
     border: 2px outset white;
@@ -111,9 +111,6 @@
 }
 
 @media screen and (max-width:320px) {
-    .containerTitle {
-        /* margin: 20px 0 4px; */
-    }
 }
 
 @media (min-width: 768px) {
