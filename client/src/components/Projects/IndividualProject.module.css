@@ -110,6 +110,17 @@
     background-color: #9a48af80;
 }
 
+.container_front_techs , .container_back_techs {
+    display: flex;
+    align-items: center;
+}
+
+.container_logos img {
+    user-select: none;
+    -webkit-user-drag: none;
+    width: 28px;
+}
+
 @media screen and (max-width:320px) {
 }
 

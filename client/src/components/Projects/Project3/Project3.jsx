@@ -2,6 +2,17 @@ import style from "../IndividualProject.module.css";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import Carousel from "../../Carousel/Carousel";
+import css3Img from "../../../assets/css3.svg";
+import javascriptImg from "../../../assets/javascript.png";
+import reactImg from "../../../assets/react.png";
+import reduxImg from "../../../assets/redux.png";
+import postgresqlImg from "../../../assets/postgresql.png";
+import nodejsImg from "../../../assets/node-js.png";
+import sequelizeImg from '../../../assets/sequelize-white-logo.png';
+import socketioImg from '../../../assets/socketio-logo.png';
+import expressImg from '../../../assets/express-logo.png';
+import reactBootstrapImg from '../../../assets/reactb-logo.png';
+
 
 const Project3 = () => {
     const { t } = useTranslation();
@@ -46,26 +57,34 @@ const Project3 = () => {
                 <h3>Tecnologías utilizadas</h3>
                 
                 <div className={style.container_front_techs}>
-                    <h4>Frontend:</h4>
+                    <h4>Frontend</h4>
                     <div className={style.container_logos}>
-                        {/*Logos*/}
+                        <img src={javascriptImg} alt="javascript logo" />
+                        <img src={css3Img} alt="css logo" />
+                        <img src={reactBootstrapImg} alt="react bootstrap logo" />
+                        <img src={reactImg} alt="react logo" />
+                        <img src={reduxImg} alt="redux logo" />
                     </div>
-                    <div className={style.dependencies} >
+                </div>
+                <div className={style.dependencies} >
                         <h5>Dependencias:</h5>
                         <p>dependencias utiliziadas....</p>
                     </div>
-                </div>
                 
                 <div className={style.container_back_techs}>
-                    <h4>Backend:</h4>
+                    <h4>Backend</h4>
                     <div className={style.container_logos}>
-                        {/*Logos*/}
+                        <img src={postgresqlImg} alt="postgreSQL logo" />
+                        <img src={sequelizeImg} alt="sequelize logo" />
+                        <img src={expressImg} alt="express logo" />
+                        <img src={nodejsImg} alt="nodeJS logo" />
+                        <img src={socketioImg} alt="socket.io logo" />
                     </div>
-                    <div className={style.dependencies} >
+                </div>
+                <div className={style.dependencies} >
                         <h5>Dependencias:</h5>
                         <p>dependencias utiliziadas....</p>
                     </div>
-                </div>
             </div>
 
             {/*Bloque de videos...*/}
