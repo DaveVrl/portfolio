@@ -6,7 +6,7 @@
     "project_card": {
         "description_project_1":"Final academic project developed as a team applying SCRUM methodology. It's a virtual store focused on selling gamer products.",
         "description_project_2":"Individual academic project. It is a single-page application with a Pokémon theme, developed to showcase acquired knowledge.",
-        "description_project_3":"Personal project based on Trello and Jira Software. Developed with the goal of providing an intuitive and efficient user experience, with easy and fast access, where users can organize the progress of their individual or group developments using Boards, Lists, and Cards."
+        "description_project_3":"Personal project inspired by Trello and Jira Software, designed and developed to provide an intuitive and efficient user experience. Additionally, it served as an opportunity to strengthen technical skills and incorporate new technologies."
     },
     "project_1_full_description": {
         "paragraph1":"Liliana Gamestore is a B2C (Business to Consumer) e-commerce developed as a team under the SCRUM methodology. This site includes a database, server, controllers, routes, pagination, combined filters, sorting, controlled forms, user registration and login, admin CRUD operations, payment gateway, favorites, shopping cart, product reviews, notifications, logical deletion, local storage, Redux, and state management.",
@@ -17,6 +17,9 @@
         "paragraph1":"Pokémon SPA is a single-page application developed individually. This site includes API consumption, searches, filters, sorting, controlled forms, Redux and state management, pagination, routes, controllers, and a database.",
         "paragraph2":"It was an individual project assigned by Henry to assess technical competencies. In this application, you can search for your favorite Pokémon, view their statistics, and create one according to your preferences.",
         "paragraph3":"Technologies used: Frontend (HTML, CSS3, JavaScript with React and Redux), Backend (Node.js with Express.js and JavaScript), Database (PostgreSQL with Sequelize)."
+    },
+    "project_3_full_description": {
+        "paragraph1":""
     },
     "about": {
         "paragraph1":"Hi! I'm David Varela, originally from Argentina.",

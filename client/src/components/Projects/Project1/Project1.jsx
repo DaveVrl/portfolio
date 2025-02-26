@@ -30,7 +30,7 @@ const Project1 = () => {
                 <span>2023</span>
             </div>
             <div className={style.containerSpan}>
-                <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL</p>
+                <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
                 <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore">LilianaGamestore</a></p>
             </div>

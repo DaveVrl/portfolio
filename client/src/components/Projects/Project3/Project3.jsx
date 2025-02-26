@@ -31,16 +31,45 @@ const Project3 = () => {
                 <span>2024</span>
             </div>
             <div className={style.containerSpan}>
-                <p><span>STACK</span> JavaScript, NodeJS, React, PostgreSQL</p>
+                <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore">LilianaGamestore</a></p>
+                <p><span>WEBSITE</span> <a href="_" target="LilianaGamestore"> Ir al sitio</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>
             </div>
-            <p className={style.pText}>{t("project_1_full_description.paragraph1")}</p>
-            <p className={style.pText}>{t("project_1_full_description.paragraph2")}</p>
-            <p className={style.pText}>{t("project_1_full_description.paragraph3")}</p>
+            <p className={style.pText}>{t("project_3_full_description.paragraph1")}</p>
+            <p className={style.pText}>{t("project_3_full_description.paragraph2")}</p>
+
+            <div className={style.container_infotechs}>
+
+                <h3>Tecnologías utilizadas</h3>
+                
+                <div className={style.container_front_techs}>
+                    <h4>Frontend:</h4>
+                    <div className={style.container_logos}>
+                        {/*Logos*/}
+                    </div>
+                    <div className={style.dependencies} >
+                        <h5>Dependencias:</h5>
+                        <p>dependencias utiliziadas....</p>
+                    </div>
+                </div>
+                
+                <div className={style.container_back_techs}>
+                    <h4>Backend:</h4>
+                    <div className={style.container_logos}>
+                        {/*Logos*/}
+                    </div>
+                    <div className={style.dependencies} >
+                        <h5>Dependencias:</h5>
+                        <p>dependencias utiliziadas....</p>
+                    </div>
+                </div>
+            </div>
+
+            {/*Bloque de videos...*/}
+
             <a className={style.aBack} onClick={handleBackClick}>{t("buttons.btn_back")}</a>
         </div>
     )

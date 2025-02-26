@@ -24,6 +24,7 @@ const Carousel = () => {
         style={{
           '--swiper-navigation-color': '#fff',
           '--swiper-pagination-color': '#fff',
+          userSelect:'none'
         }}
         zoom={true}
         navigation={true}
