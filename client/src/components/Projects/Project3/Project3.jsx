@@ -8,7 +8,7 @@ import reactImg from "../../../assets/react.png";
 import reduxImg from "../../../assets/redux.png";
 import postgresqlImg from "../../../assets/postgresql.png";
 import nodejsImg from "../../../assets/node-js.png";
-import sequelizeImg from '../../../assets/sequelize-white-logo.png';
+import sequelizeImg from '../../../assets/sequelize-logo.png';
 import socketioImg from '../../../assets/socketio-logo.png';
 import expressImg from '../../../assets/express-logo.png';
 import reactBootstrapImg from '../../../assets/reactb-logo.png';
@@ -54,38 +54,34 @@ const Project3 = () => {
 
             <div className={style.container_infotechs}>
 
-                <h3>Tecnologías utilizadas</h3>
+                {/* <h3>Tecnologías utilizadas</h3> */}
                 
                 <div className={style.container_front_techs}>
                     <h4>Frontend</h4>
                     <div className={style.container_logos}>
-                        <img src={javascriptImg} alt="javascript logo" />
-                        <img src={css3Img} alt="css logo" />
-                        <img src={reactBootstrapImg} alt="react bootstrap logo" />
                         <img src={reactImg} alt="react logo" />
                         <img src={reduxImg} alt="redux logo" />
+                        <img src={javascriptImg} alt="javascript logo" />
+                        <img src={reactBootstrapImg} alt="react bootstrap logo" />
+                        <img src={css3Img} alt="css logo" />
                     </div>
+                    <p className={style.p_dependencies}><span>Dependencias:</span> axios, dayjs, ldrs, react-loading-skeleton, react-tooltip, react-beautiful-dnd.
+                    </p> 
                 </div>
-                <div className={style.dependencies} >
-                        <h5>Dependencias:</h5>
-                        <p>dependencias utiliziadas....</p>
-                    </div>
-                
+                               
                 <div className={style.container_back_techs}>
                     <h4>Backend</h4>
                     <div className={style.container_logos}>
-                        <img src={postgresqlImg} alt="postgreSQL logo" />
-                        <img src={sequelizeImg} alt="sequelize logo" />
-                        <img src={expressImg} alt="express logo" />
-                        <img src={nodejsImg} alt="nodeJS logo" />
                         <img src={socketioImg} alt="socket.io logo" />
+                        <img src={nodejsImg} alt="nodeJS logo" />
+                        <img src={expressImg} alt="express logo" />
+                        <img src={sequelizeImg} alt="sequelize logo" />
+                        <img src={postgresqlImg} alt="postgreSQL logo" />
                     </div>
-                </div>
-                <div className={style.dependencies} >
-                        <h5>Dependencias:</h5>
-                        <p>dependencias utiliziadas....</p>
-                    </div>
-            </div>
+                    <p className={style.p_dependencies}><span>Dependencias:</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, socket.io.
+                    </p>
+                </div>     
+            </div> {/*InfoTechs*/}
 
             {/*Bloque de videos...*/}
 

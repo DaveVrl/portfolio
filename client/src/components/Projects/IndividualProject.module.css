@@ -45,7 +45,7 @@
 }
 
 .containerTitle h1 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .carousel_container {
@@ -110,15 +110,36 @@
     background-color: #9a48af80;
 }
 
+.container_infotechs {
+    margin-top: 10px;
+}
+
 .container_front_techs , .container_back_techs {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container_infotechs h4 { 
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container_logos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 6px;
 }
 
 .container_logos img {
     user-select: none;
     -webkit-user-drag: none;
-    width: 28px;
+    height: 34px;
+}
+
+.p_dependencies {
+    color: #e5e5e5;
 }
 
 @media screen and (max-width:320px) {
