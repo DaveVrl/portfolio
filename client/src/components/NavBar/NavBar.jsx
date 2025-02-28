@@ -58,7 +58,7 @@ const NavBar = () => {
               <img className={style.arrowMenu} src={leftArrow} alt="left arrow icon" onClick={handleBackClick} />
             )
             : (
-            <>
+            <div className={style.btns_hidden}> {/*Con la animación evito el bug visual de activeBtn*/}
               <Link
             to="home"
             spy={true}
@@ -92,7 +92,7 @@ const NavBar = () => {
           >
             About
           </Link>
-          </>
+          </div>
             )
           }
           

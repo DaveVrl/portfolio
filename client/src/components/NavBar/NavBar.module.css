@@ -34,6 +34,20 @@
     display: flex;
 }
 
+.btns_hidden {
+    display: flex;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Opacidad inicial al 0% */
+    }
+    100% {
+        opacity: 1; /* Opacidad final al 100% */
+    }
+}
+
 .activeBtn {
     height: 30px;
     margin: 0px 4px 0px;
@@ -52,10 +66,23 @@
     width: 89%;
     justify-content: space-between;
     user-select: none;
+    animation: fadeIn 0.4s ease-in-out forwards;
 }
 
 .arrowMenu {
     width: 30px;
+    filter: brightness(0.8);
+    animation: fadeIn 0.4s ease-in-out forwards;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.arrowMenu:hover {
+    cursor: pointer;
+    filter: brightness(1);
+}
+
+.arrowMenu:active {
     filter: brightness(0.8);
 }
 
