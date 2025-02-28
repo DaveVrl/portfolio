@@ -1,7 +1,10 @@
+.containerContact {
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
 .contact_form_container {
     display: flex;
     flex-direction: column;
-    animation: fadeIn 0.4s ease-in-out forwards;
 }
 
 @keyframes fadeIn {

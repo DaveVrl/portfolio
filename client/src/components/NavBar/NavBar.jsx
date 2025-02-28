@@ -11,7 +11,7 @@ const NavBar = () => {
   const [activeButton, setActiveButton] = useState(null);
   
   const handleSetActive = (to) => {
-    setActiveButton(to);
+      setActiveButton(to);
   };
 
   const location = useLocation();
@@ -19,10 +19,8 @@ const NavBar = () => {
   const navigate = useNavigate();
   
       const handleBackClick = () => {
-          navigate("/");
-          
-      
-          setTimeout(() => {
+        
+        setTimeout(() => {
               let projectsSection = null;
 
               if(location.pathname.includes('/taskunity')) projectsSection = document.getElementById('projects');
@@ -45,6 +43,8 @@ const NavBar = () => {
                   }, 50); // Da tiempo a que termine el scroll inicial
               }
           }, 0);
+          
+          navigate("/");
       };
 
   return (
@@ -74,7 +74,7 @@ const NavBar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-20}
+            offset={-70}
             duration={500}
             className={`${style.navBtn} ${activeButton === "projects" ? style.activeBtn : ""}`}
             onSetActive={() => handleSetActive("projects")}
@@ -85,7 +85,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-20}
+            offset={-70}
             duration={500}
             className={`${style.navBtn} ${activeButton === "about" ? style.activeBtn : ""}`}
             onSetActive={() => handleSetActive("about")}
