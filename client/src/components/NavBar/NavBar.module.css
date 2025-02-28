@@ -48,10 +48,15 @@
 
 .btns_and_lenguage_container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     width: 89%;
     justify-content: space-between;
     user-select: none;
+}
+
+.arrowMenu {
+    width: 30px;
+    filter: brightness(0.8);
 }
 
 
