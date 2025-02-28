@@ -12,6 +12,7 @@ import sequelizeImg from '../../../assets/sequelize-logo.png';
 import socketioImg from '../../../assets/socketio-logo.png';
 import expressImg from '../../../assets/express-logo.png';
 import reactBootstrapImg from '../../../assets/reactb-logo.png';
+import leftArrow from '../../../assets/left-arrow.png';
 
 
 const Project3 = () => {
@@ -54,10 +55,14 @@ const Project3 = () => {
 
             <div className={style.container_infotechs}>
 
-                {/* <h3>Tecnologías utilizadas</h3> */}
+                <h3>Tecnologías utilizadas</h3>
                 
                 <div className={style.container_front_techs}>
-                    <h4>Frontend</h4>
+                    <div className={style.title_arrowLeft}>
+                        <h4>Frontend</h4>
+                        <img src={leftArrow} alt="left arrow icon" />
+                    </div>
+                    
                     <div className={style.container_logos}>
                         <img src={reactImg} alt="react logo" />
                         <img src={reduxImg} alt="redux logo" />
@@ -70,7 +75,10 @@ const Project3 = () => {
                 </div>
                                
                 <div className={style.container_back_techs}>
-                    <h4>Backend</h4>
+                    <div className={style.title_arrowLeft}>
+                        <h4>Backend</h4>
+                        <img src={leftArrow} alt="left arrow icon" />
+                    </div>
                     <div className={style.container_logos}>
                         <img src={socketioImg} alt="socket.io logo" />
                         <img src={nodejsImg} alt="nodeJS logo" />
