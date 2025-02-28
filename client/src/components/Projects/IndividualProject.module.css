@@ -46,6 +46,7 @@
 
 .containerTitle h1 {
     font-size: 32px;
+    color: white;
 }
 
 .carousel_container {
@@ -60,10 +61,17 @@
     margin: 0 5px;
 }
 
-.pText {
+.pText_1 , .pText_2 {
     text-align: left;
-    margin: 10px 0;
     color: #e5e5e5;
+}
+
+.pText_1 {
+    margin: 10px 0;
+}
+
+.pText_2 {
+    margin: 0 0 0px;
 }
 
 .containerSpan {
@@ -76,7 +84,7 @@
 .containerSpan span {
     background-color: #9a48af80;
     border-radius: 10px;
-    padding: 0 6px;
+    padding: 1px 6px;
 }
 
 .containerSpan p {
@@ -115,17 +123,19 @@
 }
 
 .container_infotechs h3 {
-    font-size: 27px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin: 20px 0 20px;
+    color: white;
 }
 
 .container_front_techs , .container_back_techs {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
-    border-left: dashed 2px #9a48afad;
-    border-bottom: dashed 2px grey;
-    padding: 0 0 14px 10px;
+    border-left: solid 2px #9a48afad;
+    border-bottom: solid 2px grey;
+    padding: 0 0 15px 10px;
+    border-bottom-left-radius: 4px;
 }
 
 .title_arrowLeft {
@@ -135,7 +145,7 @@
 }
 
 .title_arrowLeft img {
-    height: 36px;
+    height: 34px;
     user-select: none;
     -webkit-user-drag: none;
     aspect-ratio: 1/1;

@@ -50,8 +50,8 @@ const Project3 = () => {
             <div className={style.carousel_container}>
                 <Carousel/>
             </div>
-            <p className={style.pText}>{t("project_3_full_description.paragraph1")}</p>
-            <p className={style.pText}>{t("project_3_full_description.paragraph2")}</p>
+            <p className={style.pText_1}>{t("project_3_full_description.paragraph1")}</p>
+            <p className={style.pText_2}>{t("project_3_full_description.paragraph2")}</p>
 
             <div className={style.container_infotechs}>
 

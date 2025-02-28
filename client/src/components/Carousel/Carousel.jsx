@@ -16,8 +16,21 @@ import img6 from '../../assets/taskunity/8-Members.png';
 import img7 from '../../assets/taskunity/9-Options.png';
 import img8 from '../../assets/taskunity/10-Work-Board.png';
 import img9 from '../../assets/taskunity/11-Skeletons-Board.png';
+import { useState, useEffect } from 'react';
 
 const Carousel = () => {
+  
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
     return (
         <>
         <Swiper
@@ -27,7 +40,7 @@ const Carousel = () => {
           userSelect:'none'
         }}
         zoom={true}
-        navigation={true}
+        navigation={!isMobile}
         pagination={{
           clickable: true,
         }}

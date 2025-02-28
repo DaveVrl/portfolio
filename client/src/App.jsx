@@ -12,11 +12,8 @@ import Project2 from './components/Projects/Project2/Project2';
 import Project3 from './components/Projects/Project3/Project3';
 import DownArrow from './components/DownArrow/DownArrow';
 import Contact from './components/Contact/Contact';
-import { useLocation } from 'react-router-dom';
 
 function App() {
-
-  const location = useLocation();
 
   return (
     <I18nextProvider i18n={i18n}>
@@ -48,7 +45,7 @@ function App() {
               <Route path="/projects/taskunity" element={<Project3  />} />
             </Routes>
           </div>
-          { location.pathname.includes('/projects') ? null : <Footer /> }
+          <Footer /> 
         </div>
     </I18nextProvider>
   );
