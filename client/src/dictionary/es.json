@@ -20,7 +20,8 @@
     },
     "project_3_full_description": {
         "paragraph1":"TaskUnity permite a los usuarios crear su propio Espacio de Trabajo y establecer Tableros para organizar proyectos individuales o grupales mediante Listas y Tarjetas.",
-        "paragraph2":"La aplicación está desarrollada con el stack PERN, con Redux para la gestión de estado y Socket.io para comunicación en tiempo real. Cuenta con autenticación, gestión de permisos y una interfaz que facilita el trabajo en equipo de manera fluida y sencilla."
+        "paragraph2":"La aplicación está desarrollada con el stack PERN, con Redux para la gestión de estado y Socket.io para comunicación en tiempo real. Cuenta con autenticación, gestión de permisos y una interfaz que facilita el trabajo en equipo de manera fluida y sencilla.",
+        "paragraph3":"Además de lo mencionado, implementé Portals para manejar superposiciones de elementos, resolviendo conflictos de overflow anidados."
     },
     "about": {
         "paragraph1":"¡Hola! mi nombre es David Varela, soy originario de Argentina.",

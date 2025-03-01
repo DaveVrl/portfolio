@@ -52,6 +52,7 @@ const Project3 = () => {
             </div>
             <p className={style.pText_1}>{t("project_3_full_description.paragraph1")}</p>
             <p className={style.pText_2}>{t("project_3_full_description.paragraph2")}</p>
+            <p className={style.pText_3}>{t("project_3_full_description.paragraph3")}</p>
 
             <div className={style.container_infotechs}>
 

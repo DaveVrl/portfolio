@@ -61,7 +61,7 @@
     margin: 0 5px;
 }
 
-.pText_1 , .pText_2 {
+.pText_1 , .pText_2  , .pText_3 {
     text-align: left;
     color: #e5e5e5;
 }
@@ -71,7 +71,7 @@
 }
 
 .pText_2 {
-    margin: 0 0 0px;
+    margin: 0 0 10px;
 }
 
 .containerSpan {
