@@ -1,6 +1,6 @@
 {
     "home": {
-        "paragraph1":"Hello! I'm a Full Stack Developer with experience in web application development. I'm ready to take on challenges and collaborate on projects.",
+        "paragraph1":"Hi! I'm a Full Stack Developer with experience in web application development. I'm ready to take on challenges and collaborate on projects.",
         "paragraph2":"I'm interested in continuing to expand my knowledge. If you're looking for a dedicated web developer, don't hesitate to contact me!"
     },
     "project_card": {
@@ -9,20 +9,20 @@
         "description_project_3":"Personal project inspired by Trello and Jira Software, designed and developed to provide an intuitive and efficient user experience. Additionally, it served as an opportunity to strengthen technical skills and incorporate new technologies."
     },
     "project_1_full_description": {
-        "paragraph1":"Liliana Gamestore is a B2C (Business to Consumer) e-commerce developed as a team under the SCRUM methodology. This site includes a database, server, controllers, routes, pagination, combined filters, sorting, controlled forms, user registration and login, admin CRUD operations, payment gateway, favorites, shopping cart, product reviews, notifications, logical deletion, local storage, Redux, and state management.",
-        "paragraph2":"It was a group project assigned by Henry to assess technical competencies. My primary focus was on the development of backend controllers and the database.",
-        "paragraph3":"Technologies used: Frontend (HTML, CSS3, Bootstrap, JavaScript with React and Redux), Backend (Node.js with Express.js and JavaScript), Database (PostgreSQL with Sequelize), Payment API (MercadoPago)."
+        "paragraph1":"Liliana Gamestore is a B2C (Business to Consumer) e-commerce platform. This site includes a database, server, controllers, routes, pagination, combined filters, sorting, controlled forms, user registration and login, admin CRUD, payment gateway, favorites, shopping cart, product reviews, and notifications.",
+        "paragraph2":"It was a group academic project assigned to assess technical skills. My main focus was on developing backend controllers and the database."
     },
     "project_2_full_description": {
         "paragraph1":"Pokémon SPA is a single-page application developed individually. This site includes API consumption, searches, filters, sorting, controlled forms, Redux and state management, pagination, routes, controllers, and a database.",
-        "paragraph2":"It was an individual project assigned by Henry to assess technical competencies. In this application, you can search for your favorite Pokémon, view their statistics, and create one according to your preferences.",
-        "paragraph3":"Technologies used: Frontend (HTML, CSS3, JavaScript with React and Redux), Backend (Node.js with Express.js and JavaScript), Database (PostgreSQL with Sequelize)."
+        "paragraph2":"It was an individual project assigned by Henry to assess technical competencies. In this application, you can search for your favorite Pokémon, view their statistics, and create one according to your preferences."
     },
     "project_3_full_description": {
-        "paragraph1":""
+        "paragraph1":"TaskUnity allows users to create their own Workspace and set up Boards to organize individual or group projects using Lists and Cards.",
+        "paragraph2":"The application is developed with the PERN stack, using Redux for state management and Socket.io for real-time communication. It features authentication, permission management, and an interface that facilitates teamwork in a smooth and simple way.",
+        "paragraph3":"In addition to the aforementioned, I implemented Portals to handle element overlays, resolving nested overflow conflicts."
     },
     "about": {
-        "paragraph1":"Hi! I'm David Varela, originally from Argentina.",
+        "paragraph1":"I'm David Varela, originally from Argentina.",
         "paragraph2":"I delved into programming on my own, learning HTML, CSS, and basic JavaScript through self-directed courses and various practical exercises. In early 2023, I decided to take a professional leap by joining the Henry academy, where I graduated as a Full Stack Web Developer.",
         "paragraph3":"I am currently seeking employment, and I would love to work remotely. I am highly interested in contributing my knowledge and enhancing it, leveraging my skills as part of a team."
     },
@@ -36,5 +36,10 @@
         "input2": "Email *",
         "textarea": "Write your message *",
         "btn_send": "Send message" 
+    },
+    "individual_projects" : {
+        "tech":"Technologies used",
+        "dep":"Dependencies:",
+        "a_href_go_to_site":"Go to site"
     }
 }

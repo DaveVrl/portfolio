@@ -43,7 +43,7 @@ const Project1 = () => {
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore"> Ir al sitio</a></p>
+                <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>
@@ -53,7 +53,7 @@ const Project1 = () => {
 
             <div className={style.container_infotechs}>
 
-                <h3>Tecnologías utilizadas</h3>
+                <h3>{t("individual_projects.tech")}</h3>
                 
                 <div className={style.container_front_techs}>
                     <div className={style.title_arrowLeft}>
@@ -68,7 +68,7 @@ const Project1 = () => {
                         
                         <img src={css3Img} alt="css logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>Dependencias:</span> axios, bootstrap.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> axios, bootstrap.
                     </p> 
                 </div>
                                
@@ -84,7 +84,7 @@ const Project1 = () => {
                         <img src={sequelizeImg} alt="sequelize logo" />
                         <img src={postgresqlImg} alt="postgreSQL logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>Dependencias:</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, mercadopago.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, mercadopago.
                     </p>
                 </div>     
             </div> {/*InfoTechs*/}

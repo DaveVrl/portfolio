@@ -45,7 +45,7 @@ const Project3 = () => {
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>WEBSITE</span> <a href="_" target="LilianaGamestore"> Ir al sitio</a></p>
+                <p><span>WEBSITE</span> <a href="_" target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>
@@ -56,7 +56,7 @@ const Project3 = () => {
 
             <div className={style.container_infotechs}>
 
-                <h3>Tecnologías utilizadas</h3>
+                <h3>{t("individual_projects.tech")}</h3>
                 
                 <div className={style.container_front_techs}>
                     <div className={style.title_arrowLeft}>
@@ -71,7 +71,7 @@ const Project3 = () => {
                         <img src={reactBootstrapImg} alt="react bootstrap logo" />
                         <img src={css3Img} alt="css logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>Dependencias:</span> axios, dayjs, ldrs, react-loading-skeleton, react-tooltip, react-beautiful-dnd.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> axios, dayjs, ldrs, react-loading-skeleton, react-tooltip, react-beautiful-dnd.
                     </p> 
                 </div>
                                
@@ -87,7 +87,7 @@ const Project3 = () => {
                         <img src={sequelizeImg} alt="sequelize logo" />
                         <img src={postgresqlImg} alt="postgreSQL logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>Dependencias:</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, socket.io.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, socket.io.
                     </p>
                 </div>     
             </div> {/*InfoTechs*/}
