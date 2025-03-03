@@ -9,14 +9,12 @@
         "description_project_3":"Proyecto personal inspirado en Trello y Jira Software, diseñado y desarrollado para ofrecer una experiencia de usuario intuitiva y eficiente. Además, sirvió como oportunidad para fortalecer habilidades técnicas e incorporar nuevas tecnologías."
     },
     "project_1_full_description": {
-        "paragraph1":"Liliana Gamestore es un e-commerce de tipo B2C (Business to Consumer) desarrollado en equipo bajo metodología SCRUM. Este sitio incluye base de datos, servidor, controllers, rutas, paginados, filtros combinados, ordenamiento, formularios controlados, registro y login de usuarios, crud de admin, pasarela de pagos, favoritos, carrito de compra, reviews de productos, notificaciones, borrado lógico, local storage, Redux y estados.",
-        "paragraph2":"Fue un proyecto grupal asignado por Henry para evaluar competencias técnicas. Mi mayor enfoque fue en el desarrollo de controladores backend y base de datos.",
-        "paragraph3":"Tecnologías utilizadas: Frontend (HTML, CSS3, Bootstrap, JavaScript con React y Redux), Backend (Node.js con Express.js y JavaScript), Base de Datos (PostgreSQL con Sequelize), Payment API (MercadoPago)."
+        "paragraph1":"Liliana Gamestore es un e-commerce de tipo B2C (Business to Consumer). Este sitio incluye base de datos, servidor, controllers, rutas, paginados, filtros combinados, ordenamiento, formularios controlados, registro y login de usuarios, crud de admin, pasarela de pagos, favoritos, carrito de compra, reviews de productos y notificaciones.",
+        "paragraph2":"Fue un proyecto grupal académico asignado para evaluar competencias técnicas. Mi mayor enfoque fue en el desarrollo de controladores backend y base de datos."
     },
     "project_2_full_description": {
         "paragraph1":"Pokémon SPA es una single page application desarrollada de forma individual. Este sitio incluye consumo de API, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, paginado, rutas, controllers y base de datos.",
-        "paragraph2":"Fue un proyecto individual asignado por Henry para evaluar competencias técnicas. En esta aplicación podrás buscar tus pokémons favoritos, visualizar sus estadísticas y crearte uno a tu gusto.",
-        "paragraph3":"Tecnologías utilizadas: Frontend (HTML, CSS3, JavaScript con React y Redux), Backend (Node.js con Express.js y JavaScript), Base de Datos (PostgreSQL con Sequelize)."
+        "paragraph2":"Fue un proyecto individual asignado para evaluar competencias técnicas. En esta aplicación podrás buscar tus pokémons favoritos, visualizar sus estadísticas y crearte uno a tu gusto."
     },
     "project_3_full_description": {
         "paragraph1":"TaskUnity permite a los usuarios crear su propio Espacio de Trabajo y establecer Tableros para organizar proyectos individuales o grupales mediante Listas y Tarjetas.",

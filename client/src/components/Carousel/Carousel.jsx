@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // import required modules
 import { Zoom, Navigation, Pagination } from 'swiper/modules';
+//taskunity
 import img1 from '../../assets/taskunity/cap.png';
 import img2 from '../../assets/taskunity/2-About.png';
 import img3 from '../../assets/taskunity/Login.png';
@@ -16,9 +17,17 @@ import img6 from '../../assets/taskunity/8-Members.png';
 import img7 from '../../assets/taskunity/9-Options.png';
 import img8 from '../../assets/taskunity/10-Work-Board.png';
 import img9 from '../../assets/taskunity/11-Skeletons-Board.png';
+//liliana
+import imgLiliana1 from '../../assets/LilianaGamestore/cap22.png';
+//pokemon
+import imgPoke1 from '../../assets/pokemonspa/cap33.png';
+//
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Carousel = () => {
+
+  const location = useLocation();
   
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
@@ -47,7 +56,11 @@ const Carousel = () => {
         modules={[Zoom, Navigation, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {
+          location.pathname.includes('/taskunity')
+          ? (
+            <>
+            <SwiperSlide>
           <div className="swiper-zoom-container">
             <img src={img1} />
           </div>
@@ -92,6 +105,31 @@ const Carousel = () => {
             <img src={img9} />
           </div>
         </SwiperSlide>
+          </>
+           )
+          : location.pathname.includes('/liliana-game-store')
+          ? (
+            <>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgLiliana1} />
+              </div>
+            </SwiperSlide>
+            </>
+          )
+          : location.pathname.includes('/pokemon-spa')
+          ? (
+            <>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgPoke1} />
+              </div>
+            </SwiperSlide>
+            </>
+          ) 
+          : null
+        }
+        
       </Swiper>
         </>
     )

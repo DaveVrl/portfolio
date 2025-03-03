@@ -1,7 +1,17 @@
 import style from "../IndividualProject.module.css";
-import image from "../../../assets/LilianaGameStore.png";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import Carousel from "../../Carousel/Carousel";
+import css3Img from "../../../assets/css3.svg";
+import javascriptImg from "../../../assets/javascript.png";
+import reactImg from "../../../assets/react.png";
+import reduxImg from "../../../assets/redux.png";
+import postgresqlImg from "../../../assets/postgresql.png";
+import nodejsImg from "../../../assets/node-js.png";
+import sequelizeImg from '../../../assets/sequelize-logo.png';
+import expressImg from '../../../assets/express-logo.png';
+import leftArrow from '../../../assets/left-arrow.png';
+
 
 const Project1 = () => {
     const { t } = useTranslation();
@@ -17,11 +27,12 @@ const Project1 = () => {
     
                 // Espera un poco para ajustar la posición del scroll
                 setTimeout(() => {
-                    window.scrollBy(0, -70); // Mueve 70px hacia arriba
+                    window.scrollBy(0, -20); // Mueve 20px hacia arriba
                 }, 50); // Da tiempo a que termine el scroll inicial
             }
         }, 0);
     };
+    
 
     return(
         <div className={style.containerProject}>
@@ -32,14 +43,54 @@ const Project1 = () => {
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore">LilianaGamestore</a></p>
+                <p><span>REPOSITORY</span> <a href="https://github.com/gabivillarec/Liliana-GameStore" target="LilianaGamestore"> Ir al sitio</a></p>
             </div>
-            <div className={style.containerImg}>
-                <img className={style.imgProject} src={image} alt="projectImage"/>
+            <div className={style.carousel_container}>
+                <Carousel/>
             </div>
-            <p className={style.pText}>{t("project_1_full_description.paragraph1")}</p>
-            <p className={style.pText}>{t("project_1_full_description.paragraph2")}</p>
-            <p className={style.pText}>{t("project_1_full_description.paragraph3")}</p>
+            <p className={style.pText_1}>{t("project_1_full_description.paragraph1")}</p>
+            <p className={style.pText_2}>{t("project_1_full_description.paragraph2")}</p>
+
+            <div className={style.container_infotechs}>
+
+                <h3>Tecnologías utilizadas</h3>
+                
+                <div className={style.container_front_techs}>
+                    <div className={style.title_arrowLeft}>
+                        <h4>Frontend</h4>
+                        <img src={leftArrow} alt="left arrow icon" />
+                    </div>
+                    
+                    <div className={style.container_logos}>
+                        <img src={reactImg} alt="react logo" />
+                        <img src={reduxImg} alt="redux logo" />
+                        <img src={javascriptImg} alt="javascript logo" />
+                        
+                        <img src={css3Img} alt="css logo" />
+                    </div>
+                    <p className={style.p_dependencies}><span>Dependencias:</span> axios, bootstrap.
+                    </p> 
+                </div>
+                               
+                <div className={style.container_back_techs}>
+                    <div className={style.title_arrowLeft}>
+                        <h4>Backend</h4>
+                        <img src={leftArrow} alt="left arrow icon" />
+                    </div>
+                    <div className={style.container_logos}>
+                        
+                        <img src={nodejsImg} alt="nodeJS logo" />
+                        <img src={expressImg} alt="express logo" />
+                        <img src={sequelizeImg} alt="sequelize logo" />
+                        <img src={postgresqlImg} alt="postgreSQL logo" />
+                    </div>
+                    <p className={style.p_dependencies}><span>Dependencias:</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, mercadopago.
+                    </p>
+                </div>     
+            </div> {/*InfoTechs*/}
+
+            {/*Bloque de videos...*/}
+
             <a className={style.aBack} onClick={handleBackClick}>{t("buttons.btn_back")}</a>
         </div>
     )
