@@ -51,11 +51,10 @@ const Project2 = () => {
             </div>
             <p className={style.pText_1}>{t("project_2_full_description.paragraph1")}</p>
             <p className={style.pText_2}>{t("project_2_full_description.paragraph2")}</p>
+            
+            <h3>{t("individual_projects.tech")}</h3>
 
             <div className={style.container_infotechs}>
-
-                <h3>{t("individual_projects.tech")}</h3>
-                
                 <div className={style.container_front_techs}>
                     <div className={style.title_arrowLeft}>
                         <h4>Frontend</h4>
