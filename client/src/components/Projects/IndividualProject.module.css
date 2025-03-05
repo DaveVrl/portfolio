@@ -165,7 +165,7 @@
 
 @media (min-width: 1024px) {
     .containerTitle {
-        margin: 126px 0 28px;
+        margin: 80px 0 28px;
         align-items: center;
     }
 
@@ -217,7 +217,7 @@
     }
 
     .aBack {
-        margin: 26px auto 26px;
+        margin: 40px auto 40px;
     }
 
     .aBack:hover {
@@ -232,6 +232,10 @@
 
     .containerSpan {
         margin-top: 0px;
+    }
+
+    .containerSpan p {
+        margin-top: 12px;
     }
 
     .carousel_container {
