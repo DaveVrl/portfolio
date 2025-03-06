@@ -171,6 +171,7 @@
 
     .containerTitle h1 {
         font-size: 46px;
+        margin-left: 1px;
     }
 
     .containerTitle span {
