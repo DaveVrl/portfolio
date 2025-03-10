@@ -20,7 +20,11 @@ import img9 from '../../assets/taskunity/11-Skeletons-Board.png';
 //liliana
 import imgLiliana1 from '../../assets/LilianaGamestore/cap22.png';
 //pokemon
-import imgPoke1 from '../../assets/pokemonspa/cap33.png';
+import imgPoke1 from '../../assets/pokemonspa/pokeIntro.png';
+import imgPoke2 from '../../assets/pokemonspa/poke1.png';
+import imgPoke3 from '../../assets/pokemonspa/poke2.png';
+import imgPoke4 from '../../assets/pokemonspa/poke3.png';
+import imgPoke5 from '../../assets/pokemonspa/poke4.png';
 //
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -123,6 +127,26 @@ const Carousel = () => {
             <SwiperSlide>
               <div className="swiper-zoom-container">
                 <img src={imgPoke1} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgPoke2} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgPoke3} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgPoke4} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="swiper-zoom-container">
+                <img src={imgPoke5} />
               </div>
             </SwiperSlide>
             </>
