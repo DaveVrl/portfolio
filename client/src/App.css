@@ -15,10 +15,15 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content:flex-start;
+    overflow: hidden;
 }
 
 .Background {
   background-color: #111010;
+}
+
+.cursor-wait * {
+  cursor: wait !important;
 }
 
 @media (min-width: 425px) {

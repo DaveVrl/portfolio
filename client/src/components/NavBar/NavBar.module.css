@@ -1,61 +1,135 @@
 .navContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #111010e8;
+    height: 50px;
+    backdrop-filter: blur(2px);
 }
 
 .logo {
-    max-height: 50px;
+    max-height: 48px;
     user-select: none;
     -webkit-user-drag: none;
+    display: none;
 }
 
 .navBtn {
-    height: 34px;
-    width: 70px;
-    margin: 0px 8px 0px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 0px 4px 0px;
     color: white;
-    background-color: #111010;
     border: none;
     font-size: 16px;
     font-weight: 600;
+    padding: 0 6px;
+    user-select: none;
+}
+
+.containerBtns {
+    display: flex;
+}
+
+.btns_hidden {
+    display: flex;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Opacidad inicial al 0% */
+    }
+    100% {
+        opacity: 1; /* Opacidad final al 100% */
+    }
 }
 
 .activeBtn {
     height: 30px;
-    width: 70px;
-    margin: 0px 8px 0px;
+    margin: 0px 4px 0px;
     color: white;
-    background-color: #111010;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     font-weight: 600;
+    padding: 0 6px;
     background-color: #9a48af80;
 }
 
-@media screen and (max-width: 320px) {
-    .logo{
-        display: none;
-    }
-    
+.btns_and_lenguage_container {
+    display: flex;
+    align-items: center;
+    width: 89%;
+    justify-content: space-between;
+    user-select: none;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+.arrowMenu {
+    width: 30px;
+    filter: brightness(0.8);
+    animation: fadeIn 0.4s ease-in-out forwards;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.arrowMenu:hover {
+    cursor: pointer;
+    filter: brightness(1);
+}
+
+.arrowMenu:active {
+    filter: brightness(0.8);
+}
+
+
+@media screen and (max-width: 374px) {
+}
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 425px) {
     .navContainer {
-        justify-content: center;
-        padding-bottom: 10px;
+        width: 389px;
+    }
+
+    .btns_and_lenguage_container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navContainer {
+        width: 568px;
+    }
+
+    .btns_and_lenguage_container {
+        width: 100%;
     }
 }
 
 @media (min-width: 1024px) {
     .navContainer {
         align-items: center;
-        padding-top: 15px;
+        width: 824px;
+        height: 56px;
     }
 
     .navBtn {
-        margin: 16px 10px;
+        margin: 0px 10px;
+        font-size: 17px;
     }
 
     .navBtn:hover {
         cursor: pointer;
+    }
+
+    .logo {
+        max-height: 50px;
     }
 }

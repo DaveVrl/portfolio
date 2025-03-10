@@ -7,26 +7,6 @@
     animation: fadeIn 0.4s ease-in-out forwards;
 }
 
-.containerImg {
-    width: 240px;
-    height: 240px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto 10px;
-    border: inset 2px rgb(255, 255, 255);
-    border-radius: 20%;
-}
-
-.imgProject {
-    object-fit: contain;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    user-select: none;
-    -webkit-user-drag: none;
-}
-
  @keyframes fadeIn {
     0% {
         opacity: 0; /* Opacidad inicial al 0% */
@@ -36,16 +16,20 @@
     }
 }
 
-
 .containerTitle {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    margin: 44px 0 4px;
+    margin: 65px 0 0;
 }
 
 .containerTitle h1 {
-    font-size: 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.carousel_container {
+    margin: 20px 0 10px;
 }
 
 .containerTitle span {
@@ -56,10 +40,17 @@
     margin: 0 5px;
 }
 
-.pText {
+.pText_1 , .pText_2  , .pText_3 {
     text-align: left;
-    margin: 10px 0;
     color: #e5e5e5;
+}
+
+.pText_1 {
+    margin: 10px 0;
+}
+
+.pText_2 {
+    margin: 0 0 10px;
 }
 
 .containerSpan {
@@ -72,7 +63,7 @@
 .containerSpan span {
     background-color: #9a48af80;
     border-radius: 10px;
-    padding: 0 6px;
+    padding: 1px 6px;
 }
 
 .containerSpan p {
@@ -91,7 +82,7 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    width: 120px;
+    width: 100%;
     height: 44px;
     align-items: center;
     border: 2px outset white;
@@ -106,43 +97,128 @@
     background-color: #9a48af80;
 }
 
-@media screen and (max-width:320px) {
-    .containerTitle {
-        margin: 20px 0 4px;
+.container_infotechs {
+    margin-top: 10px;
+}
+
+.containerProject h3 {
+    font-size: 26px;
+    margin: 20px 0 20px;
+    color: white;
+}
+
+.container_front_techs , .container_back_techs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    border-left: solid 2px #9a48afad;
+    border-bottom: solid 2px grey;
+    padding: 0 0 15px 10px;
+    border-bottom-left-radius: 4px;
+}
+
+.title_arrowLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_arrowLeft img {
+    height: 34px;
+    user-select: none;
+    -webkit-user-drag: none;
+    aspect-ratio: 1/1;
+    filter: brightness(0.85);
+}
+
+.container_infotechs h4 { 
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container_logos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 6px;
+}
+
+.container_logos img {
+    user-select: none;
+    -webkit-user-drag: none;
+    height: 34px;
+    filter: brightness(0.95);
+}
+
+.p_dependencies {
+    color: #e5e5e5;
+}
+
+@media screen and (max-width:375px) {
+    .containerTitle h1 {
+        font-size: 36px;
     }
 }
 
 @media (min-width: 768px) {
-    .containerImg {
-        width: 260px;
-        height: 260px;
-    }
-
-    .imgProject {
-        width: 260px;
-        height: 260px;  
-    }
 }
 
 @media (min-width: 1024px) {
     .containerTitle {
-        margin: 44px 0 28px;
+        margin: 80px 0 28px;
         align-items: center;
     }
 
-    .containerImg {
-        margin-bottom: 20px;
-        width: 280px;
-        height: 280px;
+    .containerTitle h1 {
+        font-size: 46px;
+        margin-left: 1px;
     }
 
-    .imgProject {
-        width: 280px;
-        height: 280px;
+    .containerTitle span {
+        font-size: 16.5px;
+    }
+
+    .containerSpan p {
+        font-size: 16.5px;
+    }
+
+    .pText_1 , .pText_2 , .pText_3 {
+        font-size: 17.5px;
+    }
+
+    .pText_1 {
+        margin: 20px 0;
+    }
+
+    .pText_2 { 
+        margin: 0 0 20px;
+    }
+
+    .container_infotechs p {
+        font-size: 17.5px;
+    }
+
+    .containerProject h3 {
+        font-size: 32px;
+        margin: 50px 0 40px;
+    }
+
+    .container_infotechs {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container_front_techs , .container_back_techs {
+        width: 380px;
+    }
+
+    .container_infotechs h4 {
+        font-size: 28px;
     }
 
     .aBack {
-        margin: 26px auto 26px;
+        margin: 60px auto 40px;
     }
 
     .aBack:hover {
@@ -157,5 +233,25 @@
 
     .containerSpan {
         margin-top: 0px;
+    }
+
+    .containerSpan p {
+        margin-top: 12px;
+    }
+
+    .carousel_container {
+        margin: 40px 0 20px;
+    }
+
+    .title_arrowLeft img {
+        height: 42px;
+    }
+
+    .container_logos {
+        gap: 10px;
+    }
+
+    .container_logos img {
+        height: 38px;
     }
 }

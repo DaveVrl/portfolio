@@ -4,8 +4,12 @@
     gap: 2px;
 }
 
+.container img {
+    -webkit-user-drag: none;
+}
+
 .btnLenguage {
-    width: 34px;
+    width: 30px;
     cursor: pointer;
     filter: grayscale(35%);
     object-fit: scale-down;
@@ -17,4 +21,10 @@
     font-weight: 700;
     font-family: system-ui;
     color: rgba(245, 245, 245, 0.774);
+}
+
+@media (min-width: 1024px) {
+    .container img {
+        width: 32px;
+    }
 }

@@ -8,14 +8,16 @@
 
 .h1_title {
     text-align: left;
-    margin: 44px 0 10px;
+    margin: 44px 0 20px;
     font-size: 36px;
+    color: white;
 }
 
 .containerProjects p {
-    margin-top: 4px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     color: #e5e5e5;
+    text-align: initial;
 }
 
 .cardProject {
@@ -23,23 +25,18 @@
 }
 
 .containerImg {
-    width: 200px;
-    height: 200px;
-    border: inset 2px rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20%;
-    margin: 20px auto 20px;
+    margin: 0 auto 10px;
 }
 
 .cardProject img {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    width: 100%;
     user-select: none;
     -webkit-user-drag: none;
     object-fit: contain;
+    border-radius: 4px;
 }
 
  @keyframes fadeIn {
@@ -52,8 +49,8 @@
 }
 
 .containerProjects hr {
-    opacity: 50%;
-    margin: 10px auto 10px;
+    opacity: 0;
+    margin: 20px auto 20px;
     width: 84vw;
     align-self: center;
 }
@@ -64,19 +61,24 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    width: 120px;
+    width: 100%;
     height: 44px;
     align-items: center;
     border: 2px outset white;
-    margin: 20px auto;
+    margin: 20px 0 0;
     padding: 10px;
     border-radius: 20px;
     border-color: #9a48af80;
     cursor: pointer;
+    user-select: none;
 }
 /* #9a48afb5 */
 .viewMore:active {
     background-color: #9a48af80;
+}
+
+.cardProject h2 {
+    text-align: initial;
 }
 
 @media screen and (max-width: 320px) {
@@ -99,37 +101,60 @@
 
 @media (min-width: 1024px) {
     .containerProjects p {
-        margin: 4px 48px 20px;
+        margin: 0;
     }
 
     .h1_title {
-        margin-bottom: 38px;
+        margin-bottom: 60px;
+        margin-top: 70px;
+        font-size: 46px;
     }
 
     .div_a {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
 
     .containerProjects hr {
-        display: none;
+        margin: 45px auto 45px;
     }
-
-    .div_a_project {
-        width: 360px;
-        margin: 0 20px;
+    
+    .cardProject {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .containerImg {
-        width: 240px;
-        height: 240px;
-        margin: 20px auto 20px;
+        margin: 0;
+        width: 50%;
+    }
+
+    .card_h2_and_p_container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 20px;
+        margin: 10px 0;
+    }
+
+    .card_h2_and_p_container h2 {
+        font-size: 32px;
+    }
+
+    .card_h2_and_p_container p {
+        font-size: 17px;
     }
 
     .cardProject img {
-        width: 240px;
-        height: 240px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .viewMore {
+        margin: 0 ;
+        font-size: 16.5px;
     }
 
 

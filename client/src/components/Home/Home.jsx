@@ -1,6 +1,5 @@
 import image from "../../assets/personal-photo.png";
 import style from "./Home.module.css";
-
 import css3Image from "../../assets/css3.svg";
 import htmlImage from "../../assets/html.svg";
 import javascriptImage from "../../assets/javascript.png";

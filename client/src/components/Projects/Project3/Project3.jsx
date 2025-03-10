@@ -1,4 +1,3 @@
-// -----------------------------------------
 import style from "../IndividualProject.module.css";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -10,11 +9,13 @@ import reduxImg from "../../../assets/redux.png";
 import postgresqlImg from "../../../assets/postgresql.png";
 import nodejsImg from "../../../assets/node-js.png";
 import sequelizeImg from '../../../assets/sequelize-logo.png';
+import socketioImg from '../../../assets/socketio-logo.png';
 import expressImg from '../../../assets/express-logo.png';
+import reactBootstrapImg from '../../../assets/reactb-logo.png';
 import leftArrow from '../../../assets/left-arrow.png';
 
 
-const Project2 = () => {
+const Project3 = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
 
@@ -22,7 +23,7 @@ const Project2 = () => {
         navigate("/");
     
         setTimeout(() => {
-            const projectsSection = document.getElementById("project_2");
+            const projectsSection = document.getElementById("projects");
             if (projectsSection) {
                 projectsSection.scrollIntoView({ behavior: "smooth" });
     
@@ -38,23 +39,24 @@ const Project2 = () => {
     return(
         <div className={style.containerProject}>
             <div className={style.containerTitle}>
-                <h1>Pokémon SPA</h1>
-                <span>2023</span>
+                <h1>TaskUnity</h1>
+                <span>2024</span>
             </div>
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>REPOSITORY</span> <a href="https://github.com/DaveVrl/SPA-Pokemon" target="Pokémon SPA"> {t("individual_projects.a_href_go_to_site")}</a></p>
+                <p><span>WEBSITE</span> <a href={false} target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>
             </div>
-            <p className={style.pText_1}>{t("project_2_full_description.paragraph1")}</p>
-            <p className={style.pText_2}>{t("project_2_full_description.paragraph2")}</p>
+            <p className={style.pText_1}>{t("project_3_full_description.paragraph1")}</p>
+            <p className={style.pText_2}>{t("project_3_full_description.paragraph2")}</p>
+            <p className={style.pText_3}>{t("project_3_full_description.paragraph3")}</p>
             
             <h3>{t("individual_projects.tech")}</h3>
 
-            <div className={style.container_infotechs}>
+            <div className={style.container_infotechs}>    
                 <div className={style.container_front_techs}>
                     <div className={style.title_arrowLeft}>
                         <h4>Frontend</h4>
@@ -65,9 +67,10 @@ const Project2 = () => {
                         <img src={reactImg} alt="react logo" />
                         <img src={reduxImg} alt="redux logo" />
                         <img src={javascriptImg} alt="javascript logo" />
+                        <img src={reactBootstrapImg} alt="react bootstrap logo" />
                         <img src={css3Img} alt="css logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> axios.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> axios, dayjs, ldrs, react-loading-skeleton, react-tooltip, react-beautiful-dnd.
                     </p> 
                 </div>
                                
@@ -77,13 +80,13 @@ const Project2 = () => {
                         <img src={leftArrow} alt="left arrow icon" />
                     </div>
                     <div className={style.container_logos}>
-                        
+                        <img src={socketioImg} alt="socket.io logo" />
                         <img src={nodejsImg} alt="nodeJS logo" />
                         <img src={expressImg} alt="express logo" />
                         <img src={sequelizeImg} alt="sequelize logo" />
                         <img src={postgresqlImg} alt="postgreSQL logo" />
                     </div>
-                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> dotenv, axios, morgan, nodemon, pg.
+                    <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, socket.io.
                     </p>
                 </div>     
             </div> {/*InfoTechs*/}
@@ -95,4 +98,4 @@ const Project2 = () => {
     )
 };
 
-export default Project2;
+export default Project3;

@@ -3,5 +3,6 @@
     justify-content: center;
     font-size: 14px;
     color: gainsboro;
-    /* background-color: #302f2f1f; */
+    padding: 4px 0;
+    background-color: #302f2f1f;
 }
