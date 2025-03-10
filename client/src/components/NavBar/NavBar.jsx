@@ -40,9 +40,9 @@ const NavBar = () => {
                   // Espera un poco para ajustar la posición del scroll
                   setTimeout(() => {
                       window.scrollBy(0, scrollNumber); // Mueve hacia arriba
-                  }, 50); // Da tiempo a que termine el scroll inicial
+                  }, 100); // Da tiempo a que termine el scroll inicial
               }
-          }, 0);
+          }, 100);
           
           navigate("/");
       };
