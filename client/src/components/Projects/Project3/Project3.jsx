@@ -29,7 +29,7 @@ const Project3 = () => {
     
                 // Espera un poco para ajustar la posición del scroll
                 setTimeout(() => {
-                    window.scrollBy(0, -20); // Mueve 20px hacia arriba
+                    window.scrollBy(0, -60); // Mueve 20px hacia arriba
                 }, 50); // Da tiempo a que termine el scroll inicial
             }
         }, 0);
