@@ -22,18 +22,23 @@ const Project3 = () => {
     const handleBackClick = () => {
         navigate("/");
     
-        setTimeout(() => {
+        const checkElement = setInterval(() => {
             const projectsSection = document.getElementById("projects");
             if (projectsSection) {
+                clearInterval(checkElement);
+    
                 projectsSection.scrollIntoView({ behavior: "smooth" });
     
-                // Espera un poco para ajustar la posición del scroll
+                // Esperar a que termine el desplazamiento antes de corregir la posición
                 setTimeout(() => {
-                    window.scrollBy(0, -60); // Mueve 20px hacia arriba
-                }, 50); // Da tiempo a que termine el scroll inicial
+                    const offset = 60; // Ajuste deseado
+                    const finalPosition = projectsSection.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top: finalPosition, behavior: "instant" }); // Sin animación para que el ajuste sea exacto
+                }, 25); // Espera más tiempo para que termine la animación de scroll
             }
-        }, 0);
+        }, 50);
     };
+    
     
 
     return(
@@ -45,7 +50,7 @@ const Project3 = () => {
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>WEBSITE</span> <a href={false} target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
+                <p><span>WEBSITE</span> <a href={null} target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>

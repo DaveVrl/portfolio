@@ -18,34 +18,30 @@ const NavBar = () => {
 
   const navigate = useNavigate();
   
-      const handleBackClick = () => {
-        
-        setTimeout(() => {
-              let projectsSection = null;
+  const handleBackClick = () => {
+    navigate("/");
 
-              if(location.pathname.includes('/taskunity')) projectsSection = document.getElementById('projects');
-              if(location.pathname.includes('/liliana')) projectsSection = document.getElementById('project_1');
-              if(location.pathname.includes('/pokemon')) projectsSection = document.getElementById('project_2');
+    const checkElement = setInterval(() => {
+        let projectsSection = null;
 
-              let scrollNumber = null;
+        if (location.pathname.includes('/taskunity')) projectsSection = document.getElementById('projects');
+        if (location.pathname.includes('/liliana')) projectsSection = document.getElementById('project_1');
+        if (location.pathname.includes('/pokemon')) projectsSection = document.getElementById('project_2');
 
-              if(location.pathname.includes('/taskunity')) {
-                scrollNumber = -20;
-              } else {
-                scrollNumber = -70;
-              }
+        let scrollNumber = location.pathname.includes('/taskunity') ? -20 : -70;
 
-              if (projectsSection) {
-                  projectsSection.scrollIntoView({ behavior: "smooth" });
-                  // Espera un poco para ajustar la posición del scroll
-                  setTimeout(() => {
-                      window.scrollBy(0, scrollNumber); // Mueve hacia arriba
-                  }, 100); // Da tiempo a que termine el scroll inicial
-              }
-          }, 100);
-          
-          navigate("/");
-      };
+        if (projectsSection) {
+            clearInterval(checkElement); // Detenemos el intervalo cuando encontramos el elemento
+            projectsSection.scrollIntoView({ behavior: "smooth" });
+
+            // Esperar a que termine el desplazamiento antes de corregir la posición
+            setTimeout(() => {
+                const finalPosition = projectsSection.getBoundingClientRect().top + window.scrollY + scrollNumber;
+                window.scrollTo({ top: finalPosition, behavior: "instant" }); // Sin animación para asegurar la precisión
+            }, 25); // Esperamos lo suficiente para que termine la animación
+        }
+    }, 50);
+};
 
   return (
     <div className={style.navContainer}>
