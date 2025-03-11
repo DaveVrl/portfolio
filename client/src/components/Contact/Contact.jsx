@@ -94,9 +94,9 @@ const Contact = () => {
           </div>
 
           <div className={style.container_form_inputs}>
-          <input type="text" name="user_name" placeholder={t("contact.input1")} required pattern="^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$" />
-          <input type="email" name="user_email" placeholder={t("contact.input2")} required pattern=".*\S.*"  />
-          <textarea name="message" placeholder={t("contact.textarea")} required pattern="^(?![\s]+$)(?![0-9]+$)(?![^\w\s]+$).+$"   />
+          <input type="text" name="user_name" placeholder={t("contact.input1")} required pattern="^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$" maxLength={50} />
+          <input type="email" name="user_email" placeholder={t("contact.input2")} required pattern=".*\S.*" maxLength={254} />
+          <textarea name="message" placeholder={t("contact.textarea")} required pattern="^(?![\s]+$)(?![0-9]+$)(?![^\w\s]+$).+$" maxLength={1000}  />
           </div>
         
         <button type="submit">
