@@ -37,6 +37,7 @@
     -webkit-user-drag: none;
     object-fit: contain;
     border-radius: 4px;
+    aspect-ratio: 4/3;
 }
 
  @keyframes fadeIn {

@@ -30,6 +30,7 @@
 
 .carousel_container {
     margin: 20px 0 10px;
+    height: 171.61px;
 }
 
 .containerTitle span {
@@ -154,13 +155,26 @@
     color: #e5e5e5;
 }
 
-@media screen and (max-width:375px) {
+@media (min-width:375px) {
     .containerTitle h1 {
         font-size: 36px;
+    }
+
+    .carousel_container {
+        height: 204.84px;
+    }
+}
+
+@media (min-width:425px) {
+    .carousel_container {
+        height: 235.05px;
     }
 }
 
 @media (min-width: 768px) {
+    .carousel_container {
+        height: 343.48px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -241,6 +255,7 @@
 
     .carousel_container {
         margin: 40px 0 20px;
+        height: 497.91px;
     }
 
     .title_arrowLeft img {
