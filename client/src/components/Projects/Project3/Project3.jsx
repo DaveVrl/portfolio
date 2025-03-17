@@ -71,7 +71,7 @@ const Project3 = () => {
                     <div className={style.container_logos}>
                         <img src={reactImg} alt="react logo" title="React" />
                         <img src={reduxImg} alt="redux logo" title="Redux" />
-                        <img src={javascriptImg} alt="javascript logo" title="Javascript" />
+                        <img src={javascriptImg} alt="javascript logo" title="JavaScript" />
                         <img src={reactBootstrapImg} alt="react bootstrap logo" title="React Bootstrap" />
                         <img src={css3Img} alt="css logo" title="CSS" />
                     </div>
