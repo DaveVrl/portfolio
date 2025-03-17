@@ -65,11 +65,11 @@ const Project1 = () => {
                     </div>
                     
                     <div className={style.container_logos}>
-                        <img src={reactImg} alt="react logo" />
-                        <img src={reduxImg} alt="redux logo" />
-                        <img src={javascriptImg} alt="javascript logo" />
+                        <img src={reactImg} alt="react logo" title="React" />
+                        <img src={reduxImg} alt="redux logo" title="Redux" />
+                        <img src={javascriptImg} alt="javascript logo" title="Javascript" />
                         
-                        <img src={css3Img} alt="css logo" />
+                        <img src={css3Img} alt="css logo" title="CSS" />
                     </div>
                     <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> axios, bootstrap.
                     </p> 
@@ -82,10 +82,10 @@ const Project1 = () => {
                     </div>
                     <div className={style.container_logos}>
                         
-                        <img src={nodejsImg} alt="nodeJS logo" />
-                        <img src={expressImg} alt="express logo" />
-                        <img src={sequelizeImg} alt="sequelize logo" />
-                        <img src={postgresqlImg} alt="postgreSQL logo" />
+                        <img src={nodejsImg} alt="nodeJS logo" title="NodeJS" />
+                        <img src={expressImg} alt="express logo" title="Express" />
+                        <img src={sequelizeImg} alt="sequelize logo" title="Sequelize" />
+                        <img src={postgresqlImg} alt="postgreSQL logo" title="PostgreSQL" />
                     </div>
                     <p className={style.p_dependencies}><span>{t("individual_projects.dep")}</span> bcrypt, dotenv, jsonwebtoken, nodemailer, axios, morgan, nodemon, pg, mercadopago.
                     </p>
