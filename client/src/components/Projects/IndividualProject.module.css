@@ -155,6 +155,10 @@
     color: #e5e5e5;
 }
 
+.noDeployed {
+    cursor: help;
+}
+
 @media (min-width:375px) {
     .containerTitle h1 {
         font-size: 36px;
@@ -214,7 +218,7 @@
 
     .containerProject h3 {
         font-size: 32px;
-        margin: 50px 0 40px;
+        margin: 40px 0 40px;
     }
 
     .container_infotechs {
