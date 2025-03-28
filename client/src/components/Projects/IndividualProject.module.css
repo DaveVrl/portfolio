@@ -30,7 +30,7 @@
 
 .carousel_container {
     margin: 20px 0 10px;
-    height: 171.61px;
+    /* height: 171.61px; */
 }
 
 .containerTitle span {
@@ -165,19 +165,19 @@
     }
 
     .carousel_container {
-        height: 204.84px;
+        /* height: 204.84px; */
     }
 }
 
 @media (min-width:425px) {
     .carousel_container {
-        height: 235.05px;
+        /* height: 235.05px; */
     }
 }
 
 @media (min-width: 768px) {
     .carousel_container {
-        height: 343.48px;
+        /* height: 343.48px; */
     }
 }
 
