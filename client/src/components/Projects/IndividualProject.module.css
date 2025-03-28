@@ -165,19 +165,19 @@
     }
 
     .carousel_container {
-        height: 204.84px;
+        min-height: 204.84px;
     }
 }
 
 @media (min-width:425px) {
     .carousel_container {
-        height: 235.05px;
+        min-height: 235.05px;
     }
 }
 
 @media (min-width: 768px) {
     .carousel_container {
-        height: 343.48px;
+        min-height: 343.48px;
     }
 }
 
