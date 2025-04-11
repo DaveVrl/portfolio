@@ -50,7 +50,7 @@ const Project3 = () => {
             <div className={style.containerSpan}>
                 <p><span>STACK</span> PostgreSQL, Express, React, NodeJS </p>
                 <p><span>PLATFORM</span> Web</p>
-                <p><span>WEBSITE</span> <a className={style.noDeployed} href={null} title="Deploy in progress" target="LilianaGamestore"> {t("individual_projects.a_href_go_to_site")}</a></p>
+                <p><span>WEBSITE</span> <a href="https://taskunity.pages.dev" target="TaskUnity"> {t("individual_projects.a_href_go_to_site")}</a></p>
             </div>
             <div className={style.carousel_container}>
                 <Carousel/>
