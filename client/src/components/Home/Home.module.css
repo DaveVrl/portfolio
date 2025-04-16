@@ -48,6 +48,21 @@
     font-family: "Lexend Zetta", sans-serif;
 }
 
+.download_cv:hover {
+    transition: 0.3s;
+    background-color: #9a48af;
+    box-shadow: 0px 0px 2px #9a48af;
+}
+
+.download_cv:hover p {
+    color: white;
+}
+
+.download_cv:active {
+    background-color: #9a48afb0;
+    box-shadow: none;
+}
+
 .image {
     max-height: 230px;
     max-width: 230px;
