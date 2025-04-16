@@ -25,19 +25,39 @@ const Home = () => {
     css3Image,
   ];
 
+  const handleDownload = () => {
+    const fileName = 'David-Varela-CV.pdf';
+    const encodedFileName = encodeURIComponent(fileName);
+    
+    const link = document.createElement('a');
+    link.href = `/${encodedFileName}`;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className={style.homeContainer}>
       <h1>David Varela</h1>
       <p>
         {t("home.paragraph1")}
       </p>
+{/**/}
       <div className={style.profile_image_container}>
+        
+        <div className={style.download_cv} onClick={handleDownload}>
+          <p>{t("home.download_cv")}</p>
+        </div>
+
         <img
         className={style.image}
         src={image}
         alt="Fotografía"
       />
+
       </div>
+{/**/}
       <p>
         {t("home.paragraph2")}
       </p>
