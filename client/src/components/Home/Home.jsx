@@ -31,13 +31,21 @@ const Home = () => {
       <p>
         {t("home.paragraph1")}
       </p>
+{/**/}
       <div className={style.profile_image_container}>
+        
+        <div className={style.download_cv}>
+          <p>{t("home.download_cv")}</p>
+        </div>
+
         <img
         className={style.image}
         src={image}
         alt="Fotografía"
       />
+
       </div>
+{/**/}
       <p>
         {t("home.paragraph2")}
       </p>

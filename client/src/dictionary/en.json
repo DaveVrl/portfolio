@@ -1,7 +1,8 @@
 {
     "home": {
         "paragraph1":"Hi! I'm a Full Stack Developer with experience in web application development. I'm ready to take on challenges and collaborate on projects.",
-        "paragraph2":"I'm interested in continuing to expand my knowledge. If you're looking for a dedicated web developer, don't hesitate to contact me!"
+        "paragraph2":"I'm interested in continuing to expand my knowledge. If you're looking for a dedicated web developer, don't hesitate to contact me!",
+        "download_cv":"DOWNLOAD CV"
     },
     "project_card": {
         "description_project_1":"Final academic project developed as a team applying SCRUM methodology. It's a virtual store focused on selling gamer products.",
