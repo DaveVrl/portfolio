@@ -24,7 +24,7 @@
     },
     "about": {
         "paragraph1":"I'm David Varela, originally from Argentina.",
-        "paragraph2":"I delved into programming on my own, learning HTML, CSS, and basic JavaScript through self-directed courses and various practical exercises. In early 2023, I decided to take a professional leap by joining the Henry academy, where I graduated as a Full Stack Web Developer.",
+        "paragraph2":"I got into programming on my own, learning HTML, CSS, and basic JavaScript as a self-taught developer through free courses and hands-on practice. In early 2023, I decided to take a professional leap by enrolling in the Henry bootcamp, where I became certified as a Full Stack Web Developer.",
         "paragraph3":"I am currently seeking employment, and I would love to work remotely. I am highly interested in contributing my knowledge and enhancing it, leveraging my skills as part of a team."
     },
     "buttons": {
@@ -36,7 +36,9 @@
         "input1": "Name *",
         "input2": "Email *",
         "textarea": "Write your message *",
-        "btn_send": "Send message" 
+        "btn_send": "Send message",
+        "success":"Message sent!",
+        "error":"Oops! Failed to send." 
     },
     "individual_projects" : {
         "tech":"Technologies used",
