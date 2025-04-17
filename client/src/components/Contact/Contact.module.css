@@ -38,7 +38,7 @@
 .contact_form_container button {
     height: 48px;
     border-radius: 20px;
-    border-color: #9a48af80;
+    border-color: #9a48afb0;
     background-color: transparent;
     font-size: 16px;
     color: white;
@@ -102,7 +102,7 @@
     margin: 9px 0;
     padding: 0px 18px;
     border-radius: 20px;
-    border-color: #9a48af80;
+    border-color: #9a48afb0;
     user-select: none;
 }
 
