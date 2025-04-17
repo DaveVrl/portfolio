@@ -183,6 +183,7 @@
 
     .download_cv p {
         margin: 0;
+        font-size: 12px;
         user-select: none;
     }
      
