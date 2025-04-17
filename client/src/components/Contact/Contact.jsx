@@ -89,8 +89,8 @@ const Contact = () => {
             alt="Down arrow icon"
             data-tooltip-id="tooltip-form"
               />
-              {<Tooltip className={style.tooltip} id="tooltip-form" isOpen={tooltipVisible} place="bottom-end" variant="success" content="¡Tu mensaje ha sido enviado exitosamente!"/>}
-              {<Tooltip id="tooltip-form" isOpen={errorTooltipVisible} place="bottom-end" variant="error" content="¡Ups! No se pudo enviar tu mensaje."/>}
+              {<Tooltip className={style.tooltip} id="tooltip-form" isOpen={tooltipVisible} place="bottom-end" variant="success" content={t("contact.success")}/>}
+              {<Tooltip id="tooltip-form" isOpen={errorTooltipVisible} place="bottom-end" variant="error" content={t("contact.error")}/>}
           </div>
 
           <div className={style.container_form_inputs}>
