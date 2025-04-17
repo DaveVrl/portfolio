@@ -65,11 +65,11 @@
     width: 100%;
     height: 44px;
     align-items: center;
-    border: 2px outset white;
+    border: 2px outset;
     margin: 20px 0 0;
     padding: 10px;
     border-radius: 20px;
-    border-color: #9a48af80;
+    border-color: #9a48afb0;
     cursor: pointer;
     user-select: none;
 }
