@@ -18,13 +18,13 @@ import img7 from '../../assets/taskunity/9-Options.png';
 import img8 from '../../assets/taskunity/10-Work-Board.png';
 import img9 from '../../assets/taskunity/11-Skeletons-Board.png';
 //liliana
-import imgLiliana1 from '../../assets/LilianaGamestore/cap22.png';
+import imgLiliana1 from '../../assets/LilianaGamestore/cap22.jpg';
 //pokemon
-import imgPoke1 from '../../assets/pokemonspa/pokeIntro.png';
-import imgPoke2 from '../../assets/pokemonspa/poke1.png';
-import imgPoke3 from '../../assets/pokemonspa/poke2.png';
-import imgPoke4 from '../../assets/pokemonspa/poke3.png';
-import imgPoke5 from '../../assets/pokemonspa/poke4.png';
+import imgPoke1 from '../../assets/pokemonspa/pokeIntro.jpg';
+import imgPoke2 from '../../assets/pokemonspa/poke1.jpg';
+import imgPoke3 from '../../assets/pokemonspa/poke2.jpg';
+import imgPoke4 from '../../assets/pokemonspa/poke3.jpg';
+import imgPoke5 from '../../assets/pokemonspa/poke4.jpg';
 //
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
