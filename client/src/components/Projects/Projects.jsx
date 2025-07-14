@@ -1,7 +1,7 @@
 import style from "./Projects.module.css";
-import lilianaImg from "../../assets/LilianaGamestore/cap2.png";
-import pokmemonImg from "../../assets/pokemonspa/cap3.png";
-import taksunity from '../../assets/taskunity/cap1.png';
+import lilianaImg from "../../assets/LilianaGamestore/cap2.jpg";
+import pokmemonImg from "../../assets/pokemonspa/cap3.jpg";
+import taksunity from '../../assets/taskunity/cap1.jpg';
 // import image from "../../assets/example.jpg"
 import { useTranslation } from "react-i18next";
 import { useNavigate } from 'react-router-dom';
