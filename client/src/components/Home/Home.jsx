@@ -57,7 +57,7 @@ const Home = () => {
       />
 
       </div>
-{/**/}
+{/*Subo CV*/}
       <p>
         {t("home.paragraph2")}
       </p>
